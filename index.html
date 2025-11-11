@@ -1,0 +1,1311 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#0f0e1a" />
+  <title>Assistentes — Catálogo</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Swiper JS & CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+
+  <style>
+    /* Tema copiado do index.html */
+    :root {
+      --bg-0: #0f0e1a; /* page */
+      --bg-1: #151427; /* header/cards */
+      --bg-2: #1b1a31; /* card hover */
+      --txt-0: #f7f7fb; /* titles */
+      --txt-1: #b6b6d1; /* body */
+      --txt-2: #8a89a6; /* subtle */
+      --pri: #9f54ff; /* purple */
+      --pink: #ff00ff; /* neon pink */
+      --cyan: #0015ff; /* neon blue */
+    }
+    html, body {
+      font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+      background: var(--bg-0);
+      color: var(--txt-1);
+    }
+
+    /* Estilo de Botão (do index.html) */
+    .btn {
+      --shadow: 0 0 20px rgba(255, 0, 255, .28);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center; /* Adicionado para centralizar texto */
+      gap: .6rem;
+      border-radius: .75rem;
+      font-weight: 800;
+      letter-spacing: .3px;
+      padding: .9rem 1.2rem;
+      border: 2px solid var(--pink);
+      color: white;
+      background: linear-gradient(90deg, var(--pink), var(--cyan));
+      box-shadow: var(--shadow);
+      transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
+      cursor: pointer; /* Adicionado */
+    }
+    .btn:hover {
+      transform: translateY(-1px) scale(1.02);
+      box-shadow: 0 0 28px rgba(0, 194, 255, .25), 0 0 34px rgba(255, 0, 255, .22);
+    }
+    .btn.ghost {
+      border-color: rgba(255, 255, 255, .18);
+      background: transparent;
+      box-shadow: none;
+    }
+    .btn.ghost:hover {
+       border-color: var(--pri);
+       color: var(--pri);
+       box-shadow: 0 0 28px rgba(159, 84, 255, .25);
+    }
+
+
+    /* Estilo de Card (do index.html) */
+    .card {
+      background: var(--bg-1);
+      border: 1px solid rgba(255, 255, 255, .06);
+      border-radius: 1rem;
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+      overflow: hidden;
+      /* NEW: Garantir que o flex-col funcione */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(159, 84, 255, .5);
+      box-shadow: 0 12px 40px rgba(159, 84, 255, .12);
+    }
+    
+    /* NEW: Conteúdo do card (preenchimento) */
+    .card-content {
+      padding: 1.25rem; /* 20px */
+      flex-grow: 1;
+    }
+    
+    /* NEW: Estilo para nome (h3) */
+    .card-name {
+      font-size: 1.125rem; /* text-lg */
+      font-weight: 600; /* font-semibold */
+      color: var(--txt-0); /* text-white */
+      margin-top: 0.75rem; /* mb-3 */
+      line-height: 1.4;
+    }
+    
+    /* --- INÍCIO DA ATUALIZAÇÃO --- */
+    /* NEW: Estilo para descrição (p) */
+    .card-description {
+      font-size: 0.875rem; /* text-sm */
+      color: var(--txt-1);
+      margin-top: 0.5rem; /* mt-2 */
+      line-height: 1.5;
+      height: 3.9em; /* Aprox. 3 linhas com line-height 1.5 */
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+    }
+    /* --- FIM DA ATUALIZAÇÃO --- */
+
+    /* NEW: Estilo para o rodapé do card (botão) */
+    .card-footer-action {
+      background-color: rgba(255, 255, 255, .02); /* bg-gray-50 adaptado */
+      padding: 1.25rem; /* px-5 py-3 -> aumentado para 20px */
+      border-top: 1px solid rgba(255, 255, 255, .06); /* border-t */
+    }
+
+    /* --- INÍCIO DA ATUALIZAÇÃO --- */
+    /* NEW: Estilo para o botão de acesso (agora neon pink) */
+    .card-button {
+      display: block;
+      width: 100%;
+      text-align: center;
+      border-radius: .75rem; /* 12px */
+      font-weight: 800;
+      letter-spacing: .3px;
+      padding: .9rem 1.2rem;
+      border: 2px solid var(--pink);
+      color: white;
+      background: linear-gradient(90deg, var(--pink), var(--cyan));
+      box-shadow: 0 0 20px rgba(255, 0, 255, .28);
+      transition: all .25s ease;
+      cursor: pointer;
+    }
+    .card-button:hover {
+      transform: translateY(-1px) scale(1.02);
+      box-shadow: 0 0 28px rgba(0, 194, 255, .25), 0 0 34px rgba(255, 0, 255, .22);
+    }
+    /* --- FIM DA ATUALIZAÇÃO --- */
+    
+    .card-button-disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      background: var(--bg-1);
+      border-color: rgba(255, 255, 255, .1);
+      color: var(--txt-2);
+      box-shadow: none;
+    }
+    .card-button-disabled:hover {
+      transform: none;
+      box-shadow: none;
+    }
+
+    /* Estilo de Tag (Chip) (do index.html) */
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      border: 1px solid rgba(159, 84, 255, .55);
+      background: linear-gradient(180deg, rgba(159, 84, 255, .12), rgba(159, 84, 255, .04));
+      color: #d8c9ff;
+      padding: .4rem .8rem;
+      border-radius: .6rem;
+      font-weight: 700;
+      font-size: 0.75rem; /* Ajustado para caber melhor */
+    }
+    
+    /* Estilo de Nav Ativa (do index.html) */
+    .nav-active {
+      color: var(--pink) !important;
+      text-shadow: 0 0 10px var(--pink), 0 0 24px rgba(255, 0, 255, .25);
+      font-weight: 800;
+    }
+
+    /* --- Estilos específicos da aplicação (Adaptados) --- */
+    
+    /* Swiper */
+    .swiper-pagination-bullet-active {
+      background-color: var(--pri) !important;
+    }
+    .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+      background-color: var(--txt-2);
+    }
+    .swiper-button-next, .swiper-button-prev {
+      color: var(--pri) !important;
+      opacity: 0.5;
+      transition: opacity 0.2s;
+    }
+    .swiper-button-next:hover, .swiper-button-prev:hover {
+      opacity: 1;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+      font-size: 2rem !important;
+    }
+
+    /* Admin */
+    .admin-card {
+      background: var(--bg-1);
+      border: 1px solid rgba(255, 255, 255, .06);
+      border-radius: 1rem;
+      padding: 1.5rem;
+    }
+    .admin-label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--txt-2);
+      margin-bottom: 0.5rem;
+    }
+    .admin-input, .admin-select {
+      width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      background: var(--bg-0);
+      border: 1px solid rgba(255, 255, .1);
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      color: var(--txt-0);
+    }
+    .admin-input::placeholder {
+      color: var(--txt-2);
+    }
+    .admin-input:focus, .admin-select:focus {
+      outline: none;
+      border-color: var(--pri);
+      box-shadow: 0 0 0 2px var(--pri);
+    }
+    /* Adaptação para .admin-button usar .btn */
+    .admin-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .6rem;
+      border-radius: .75rem;
+      font-weight: 800;
+      letter-spacing: .3px;
+      padding: .9rem 1.2rem;
+      border: 2px solid var(--pink);
+      color: white;
+      background: linear-gradient(90deg, var(--pink), var(--cyan));
+      box-shadow: 0 0 20px rgba(255, 0, 255, .28);
+      transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .admin-button:hover {
+      transform: translateY(-1px) scale(1.02);
+      box-shadow: 0 0 28px rgba(0, 194, 255, .25), 0 0 34px rgba(255, 0, 255, .22);
+    }
+    
+    /* Adaptação para .admin-button-secondary usar .btn.ghost */
+    .admin-button-secondary {
+       display: inline-flex;
+       align-items: center;
+       justify-content: center;
+       gap: .6rem;
+       border-radius: .75rem;
+       font-weight: 800;
+       letter-spacing: .3px;
+       padding: .9rem 1.2rem;
+       border: 2px solid rgba(255, 255, 255, .18);
+       color: white;
+       background: transparent;
+       box-shadow: none;
+       transition: transform .25s ease, box-shadow .25s ease, filter .25s ease, border-color .25s ease, color .25s ease;
+       cursor: pointer;
+       width: 100%;
+       margin-top: 0.5rem;
+    }
+    .admin-button-secondary:hover {
+      transform: translateY(-1px) scale(1.02);
+      border-color: var(--pri);
+      color: var(--pri);
+      box-shadow: 0 0 28px rgba(159, 84, 255, .25);
+    }
+
+  </style>
+  
+  <script>
+    // Configuração do Tailwind (removida a fonte, pois é carregada por <link>)
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cyan: {
+              ...tailwind.colors.cyan,
+            }
+          }
+        },
+      },
+    };
+  </script>
+</head>
+<body class=""> <!-- Classes de body removidas, agora controladas pelo <style> -->
+
+  <!-- Navegação Principal (Estilo de index.html) -->
+  <nav class="sticky top-0 z-50 bg-black/40 backdrop-blur-md border-b border-white/10">
+    <div class="container mx-auto max-w-7xl px-4 md:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="text-[1.1rem] sm:text-xl font-black text-white">Catálogo de Assistentes</div>
+        <div class="flex space-x-4">
+          <button id="catalogLink" class="px-3 py-2 rounded-md text-sm font-medium nav-active">Catálogo</button>
+          <button id="adminLink" class="px-3 py-2 rounded-md text-sm font-medium text-[var(--txt-2)] hover:text-white">Admin</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Página do Catálogo -->
+  <div id="catalogPage" class="container mx-auto max-w-7xl p-4 md:p-8">
+    
+    <!-- Cabeçalho -->
+    <header class="mb-8">
+      <h1 class="text-3xl md:text-4xl font-bold text-white">
+        Catálogo de Assistentes
+      </h1>
+      <p class="text-lg text-[var(--txt-1)] mt-1">
+        Encontre o assistente perfeito para suas tarefas.
+      </p>
+    </header>
+
+    <!-- Controles: busca e filtro (Estilo adaptado) -->
+    <div class="mb-8 flex flex-col md:flex-row md:items-center gap-4">
+      
+      <!-- Barra de Busca -->
+      <div class="relative flex-grow">
+        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+          <svg class="w-5 h-5 text-[var(--txt-2)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
+        <input id="searchInput" type="text" placeholder="Pesquisar por assistente ou categoria..." class="w-full pl-12 pr-4 py-3 bg-[var(--bg-1)] border border-white/10 rounded-xl shadow-sm text-white placeholder-[var(--txt-2)] focus:outline-none focus:ring-2 focus:ring-[var(--pri)] focus:border-transparent transition-all" />
+      </div>
+      
+      <!-- Filtro de Categoria -->
+      <div class="relative md:w-64">
+        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+          <svg class="w-5 h-5 text-[var(--txt-2)]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+          </svg>
+        </div>
+        <select id="categoryFilter" class="category-select-dropdown w-full pl-12 pr-10 py-3 bg-[var(--bg-1)] border border-white/10 rounded-xl shadow-sm text-white placeholder-[var(--txt-2)] focus:outline-none focus:ring-2 focus:ring-[var(--pri)] focus:border-transparent appearance-none transition-all">
+          <option value="Todas" class="bg-[var(--bg-0)]">Todas as categorias</option>
+        </select>
+        <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+          <svg class="w-5 h-5 text-[var(--txt-2)]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+      </div>
+      
+      <!-- Botão de Toggle View -->
+      <button id="toggleViewBtn" class="btn ghost h-[49px] w-full md:w-[49px] p-0 flex-shrink-0" title="Alternar visualização">
+        <!-- Ícone Grid -->
+        <svg id="gridIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden">
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
+        </svg>
+        <!-- Ícone Carrossel/Lista -->
+        <svg id="carouselIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="">
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="3" y1="9" x2="21" y2="9"></line>
+        </svg>
+      </button>
+
+    </div>
+    
+    <!-- Container principal para os carrosséis -->
+    <div id="categoriesContainer">
+      <!-- Seções de carrossel serão inseridas aqui pelo JS -->
+    </div>
+
+    <!-- Container principal para o Grid -->
+    <div id="gridViewContainer" class="hidden grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+      <!-- Cards do grid serão inseridos aqui pelo JS -->
+    </div>
+    
+    <!-- Mensagem de "Nenhum resultado" -->
+    <div id="noResults" class="hidden text-center py-16">
+      <h3 class="text-2xl font-semibold text-white">Nenhum assistente ou categoria encontrado</h3>
+      <p class="text-[var(--txt-2)] mt-2">Tente ajustar sua busca ou filtro.</p>
+    </div>
+    
+    <!-- Mensagem de "Carregando" -->
+    <div id="loadingMessage" class="text-center py-16">
+      <h3 class="text-2xl font-semibold text-white">Carregando assistentes...</h3>
+      <p class="text-[var(--txt-2)] mt-2">Por favor, aguarde.</p>
+    </div>
+
+  </div>
+
+  <!-- Página de Administração -->
+  <div id="adminPage" class="hidden container mx-auto max-w-7xl p-4 md:p-8">
+    <header class="mb-8">
+      <h1 class="text-3xl md:text-4xl font-bold text-white">
+        Painel de Administração
+      </h1>
+      <p class="text-lg text-[var(--txt-1)] mt-1">
+        Gerencie seus assistentes e categorias.
+      </p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Card: Adicionar Assistente -->
+      <div class="admin-card lg:col-span-1">
+        <h2 class="text-2xl font-bold text-white mb-4">Adicionar Assistente</h2>
+        <form id="addAssistantForm">
+          <div class="mb-4">
+            <label for="newAssistantName" class="admin-label">Nome do Assistente</label>
+            <input type="text" id="newAssistantName" class="admin-input" required>
+          </div>
+          <div class="mb-4">
+            <label for="newAssistantLink" class="admin-label">Link</label>
+            <input type="url" id="newAssistantLink" class="admin-input" required>
+          </div>
+          <div class="mb-4">
+            <label for="newAssistantCategory" class="admin-label">Categoria</label>
+            <select id="newAssistantCategory" class="admin-select category-select-dropdown" required>
+              <!-- Categorias populadas por JS -->
+            </select>
+          </div>
+          <!-- NOVOS CAMPOS -->
+          <div class="mb-4">
+            <label for="newAssistantDescription" class="admin-label">Descrição (Opcional)</label>
+            <textarea id="newAssistantDescription" class="admin-input h-24" placeholder="Breve descrição do assistente..."></textarea>
+          </div>
+          <div class="mb-4">
+            <label for="newAssistantImage" class="admin-label">URL da Imagem (Opcional)</label>
+            <input type="url" id="newAssistantImage" class="admin-input" placeholder="https://...">
+          </div>
+          <!-- FIM NOVOS CAMPOS -->
+          <button type="submit" class="admin-button">Adicionar</button>
+        </form>
+      </div>
+
+      <!-- Card: Gerenciar Categorias -->
+      <div class="admin-card lg:col-span-1">
+        <h2 class="text-2xl font-bold text-white mb-4">Gerenciar Categorias</h2>
+        <form id="addCategoryForm" class="mb-6">
+          <label for="newCategoryName" class="admin-label">Nova Categoria</label>
+          <input type="text" id="newCategoryName" class="admin-input" required>
+          <button type="submit" class="admin-button">Adicionar Categoria</button>
+        </form>
+        <h3 class="text-lg font-bold text-white mb-2">Categorias Atuais</h3>
+        <div id="categoryListContainer" class="h-40 overflow-y-auto bg-[var(--bg-0)] border border-white/10 rounded-lg p-3 text-sm">
+          <!-- Lista populada por JS -->
+        </div>
+      </div>
+      
+      <!-- Card: Importar / Exportar -->
+      <div class="admin-card lg:col-span-1">
+        <h2 class="text-2xl font-bold text-white mb-4">Importar / Exportar</h2>
+        
+        <!-- Importar -->
+        <div class="mb-6">
+          <h3 class="text-lg font-bold text-white mb-2">Importar de .txt</h3>
+          <label for="importFile" class="admin-label">Arquivo .txt (Formato: Nome;Link;Categoria)</label>
+          <input type="file" id="importFile" accept=".txt" class="block w-full text-sm text-[var(--txt-2)]
+            file:mr-4 file:py-2 file:px-4
+            file:rounded-lg file:border-0
+            file:text-sm file:font-semibold
+            file:bg-[var(--pri)] file:text-white
+            hover:file:opacity-80 cursor-pointer"/>
+        </div>
+        
+        <!-- Exportar -->
+        <div>
+          <h3 class="text-lg font-bold text-white mb-2">Exportar Dados (Salvar)</h3>
+          <!-- --- INÍCIO DA ATUALIZAÇÃO --- -->
+          <p class="admin-label">Para salvar suas alterações, clique para baixar o novo 'assistentes.json' e substitua o arquivo antigo no seu servidor.</p>
+          <button id="exportButton" class="admin-button-secondary">Baixar assistentes.json</button>
+          <!-- Textarea removido -->
+          <!-- --- FIM DA ATUALIZAÇÃO --- -->
+        </div>
+      </div>
+      
+      <!-- Card: Modificar Assistentes -->
+      <div class="admin-card md:col-span-2 lg:col-span-3">
+        <h2 class="text-2xl font-bold text-white mb-4">Modificar Assistentes</h2>
+        <p class="admin-label mb-4">Altere o nome, categoria, descrição ou imagem. A mudança será salva (nesta sessão).</p>
+        <div id="modifyAssistantList" class="h-96 overflow-y-auto space-y-3 pr-2">
+          <!-- Lista de assistentes populada por JS -->
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <script>
+    // --- DADOS ---
+    // --- INÍCIO DA ATUALIZAÇÃO ---
+    // A lista de assistentes foi movida para 'assistentes.json'
+    // 'assistentes' começará como um array vazio e será preenchido pelo fetch.
+    let assistentes = [];
+    // --- FIM DA ATUALIZAÇÃO ---
+
+    // Esta variável 'predefinedCategories' também será modificada.
+    let predefinedCategories = [
+      "Logos",
+      "Ferramentas gerais",
+      "Ferramentas Acadêmicas",
+      "Ferramentas de Estudo bíblico",
+      "Novo Testamento",
+      "Antigo Testamento",
+      "Dicionários",
+      "Léxicos",
+      "Línguas bíblicas",
+      "Teologia Histórica",
+      "Teologia Sistemática",
+      "Eclesiologia",
+      "Espiritualidade Clássica",
+      "Homilética",
+      "Ministério Prático",
+      "Exegese",
+      "Engenharia de Prompts",
+      "Apologética",
+      "Geografia",
+      "Ética",
+      "Devocional",
+      "Discipulado",
+      "Comentários",
+      "Teologia Bíblica",
+      "Obsidian",
+      "Meus",
+      "Ferramentas Pedagógicas",
+      "Contexto",
+      "Filosofia",
+      "Tabela",
+      "Mentoria",
+      "Hebraico",
+      "Grego",
+      "Dicionários / Enciclopédias",
+      "Diversos",
+      "Bíblias",
+      "Estudo Bíblico",
+      "Fluxogramas Textuais (Bíblia)",
+      "História",
+      "Confissões de Fé / Catecismos",
+      "Resenhas / Resumos",
+      "Livros",
+      "Sermões",
+      "Igreja",
+      "Referências Cruzadas",
+      "Intertextualidade Bíblica"
+    ];
+
+    // --- ESTADO GLOBAL ---
+    let swiperInstances = [];
+    let groupedAssistentes = {};
+    let currentView = 'carousel'; // 'carousel' ou 'grid'
+    
+    // Elementos DOM
+    let categoryFilterElement, catalogPage, adminPage, searchInput, noResults, loadingMessage;
+    let addAssistantForm, addCategoryForm, importFile, exportButton, exportTextArea;
+    let categoryListContainer, modifyAssistantList, adminLink, catalogLink;
+    let toggleViewBtn, gridIcon, carouselIcon, categoriesContainer, gridViewContainer;
+
+    // --- FUNÇÕES ---
+
+    /**
+     * Converte kebab-case para Title Case.
+     */
+    function kebabToTitleCase(str) {
+      if (!str) return "";
+      return str.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    }
+
+    /**
+     * Limpa e padroniza os dados dos assistentes.
+     */
+    function cleanAssistentesData() {
+      // Esta função agora é executada nos dados estáticos,
+      // mas mantida para o caso de importações futuras.
+      const seenLinks = new Set();
+      
+      let cleanedAssistentes = [];
+
+      assistentes.forEach(assistant => {
+        // Garante que o objeto tem as novas propriedades
+        if (typeof assistant.description === 'undefined') {
+          assistant.description = "";
+        }
+        if (typeof assistant.image === 'undefined') {
+          assistant.image = "";
+        }
+        
+        if (typeof assistant.link === 'string') {
+          // Remove query parameters like ?model=...
+          if (assistant.link.includes('?')) {
+            assistant.link = assistant.link.split('?')[0];
+          }
+
+          // Corrige prefixos de link comuns
+          const prefixesToFix = {
+            'https.com/': 'https://chatgpt.com/',
+            'httpsD://': 'https://',
+            'httpsAi.com/': 'https://chatgpt.com/',
+            'httpsAnswers.com/': 'https://chatgpt.com/',
+            'httpsAttps://': 'https://'
+          };
+
+          for (const [wrong, correct] of Object.entries(prefixesToFix)) {
+            if (assistant.link.startsWith(wrong)) {
+              assistant.link = assistant.link.replace(wrong, correct);
+            }
+          }
+          
+          // Garante que o link começa com http
+          const httpIndex = assistant.link.indexOf('http');
+          if (httpIndex > 0) {
+            assistant.link = assistant.link.substring(httpIndex);
+          }
+          if (!assistant.link.startsWith('http')) {
+             assistant.link = '#';
+          }
+        } else {
+          assistant.link = '#';
+        }
+
+        // Limpa nomes que têm partes de URL
+        if (typeof assistant.name === 'string' && assistant.name.includes('/c/')) {
+            assistant.name = assistant.name.split('/c/')[0];
+        }
+        
+        // Corrige erros de digitação de categoria (exemplo)
+        if (typeof assistant.category === 'string') {
+            if (assistant.category === 'Ferramentas de Estudo blblico') {
+                assistant.category = 'Ferramentas de Estudo Bíblico';
+            }
+            if (assistant.category === 'Línguas biblicas') {
+                assistant.category = 'Línguas Bíblicas';
+            }
+            if (assistant.category === 'Teologia Teologia Biblica') {
+                assistant.category = 'Teologia Bíblica';
+            }
+        }
+
+        // Lógica de desduplicação
+        if (!assistant.link || assistant.link === '#') {
+          cleanedAssistentes.push(assistant); // Mantém itens sem link por enquanto
+          return;
+        }
+        if (seenLinks.has(assistant.link)) {
+            return; // Duplicado, pular
+        }
+        seenLinks.add(assistant.link);
+        cleanedAssistentes.push(assistant); // Único, manter
+      });
+      
+      assistentes = cleanedAssistentes;
+
+      // Ordena a lista final
+      assistentes.sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    /**
+     * Agrupa os assistentes por categoria.
+     */
+    function groupAssistentes() {
+      groupedAssistentes = {}; // Resetar
+      
+      // Obter todas as categorias únicas dos assistentes
+      const categoriesFromAssistentes = [...new Set(assistentes.map(a => a.category || 'Ferramentas gerais'))];
+      
+      // Combinar com categorias pré-definidas e ordenar
+      const allCategories = Array.from(new Set([...predefinedCategories, ...categoriesFromAssistentes])).sort();
+      
+      // Atualiza a lista pré-definida para consistência futura
+      predefinedCategories = [...allCategories];
+
+      allCategories.forEach(category => {
+        const items = assistentes.filter(a => (a.category || 'Ferramentas gerais') === category);
+        if (items.length > 0) {
+          // Assistentes já estão ordenados alfabeticamente
+          groupedAssistentes[category] = items;
+        }
+      });
+    }
+
+    /**
+     * Popula TODOS os dropdowns de categoria na página.
+     */
+    function populateCategoryDropdowns() {
+      const allCategories = [...predefinedCategories].sort();
+
+      const dropdowns = document.querySelectorAll('.category-select-dropdown');
+      
+      dropdowns.forEach(dropdown => {
+        const currentValue = dropdown.value; // Salvar o valor atual
+        dropdown.innerHTML = ''; // Limpar
+        
+        // Adicionar "Todas" se for o filtro principal
+        if (dropdown.id === 'categoryFilter') {
+          const opt = document.createElement('option');
+          opt.value = "Todas";
+          opt.textContent = "Todas as categorias";
+          opt.className = 'bg-[var(--bg-0)]';
+          dropdown.appendChild(opt);
+        }
+
+        // Adicionar todas as outras categorias
+        allCategories.forEach(category => {
+          if (!category) return; // Pular categorias nulas ou vazias
+          const opt = document.createElement('option');
+          opt.value = category;
+          opt.textContent = category;
+          opt.className = 'bg-[var(--bg-0)]';
+          dropdown.appendChild(opt);
+        });
+
+        // Restaurar o valor selecionado, se possível
+        if (allCategories.includes(currentValue)) {
+          dropdown.value = currentValue;
+        } else if (dropdown.id === 'categoryFilter') {
+            dropdown.value = "Todas";
+        } else if (dropdown.id !== 'categoryFilter' && allCategories.length > 0) {
+          // Para formulários de admin, seleciona o primeiro se o anterior sumiu
+          dropdown.value = allCategories[0];
+        }
+      });
+    }
+    
+    /**
+     * Popula a lista de categorias no painel de admin.
+     */
+    function populateCategoryList() {
+      if (!categoryListContainer) return;
+      categoryListContainer.innerHTML = '';
+      predefinedCategories.sort().forEach(category => {
+        if (!category) return;
+        const p = document.createElement('p');
+        p.textContent = category;
+        p.className = 'text-[var(--txt-1)]';
+        categoryListContainer.appendChild(p);
+      });
+    }
+
+    /**
+     * Cria o HTML para um único card de assistente (agora usando classes .card e .chip)
+     */
+    function createCardHTML(assistant) {
+      const category = assistant.category || 'Sem categoria';
+      const name = assistant.name || 'Sem nome';
+      // --- INÍCIO DA ATUALIZAÇÃO ---
+      const description = assistant.description || 'Nenhuma descrição disponível.';
+      // --- FIM DA ATUALIZAÇÃO ---
+      // const image = assistant.image || '';
+      const link = (assistant.link && assistant.link.trim() && assistant.link !== '#') ? assistant.link : '#';
+      const isDisabled = link === '#';
+      
+      // const firstLetter = name.charAt(0).toUpperCase() || 'A';
+      // const placeholder = `https://placehold.co/128x128/1b1a31/8a89a6?text=${firstLetter}`;
+      
+      const linkAttributes = isDisabled 
+        ? 'class="card-button card-button-disabled" aria-disabled="true"' 
+        : `href="${link}" target="_blank" rel="noopener noreferrer" class="card-button"`;
+      
+      // --- INÍCIO DA ATUALIZAÇÃO ---
+      // Adicionado <p class="card-description">
+      return `
+        <div class="card h-full"> <!-- .card aplica o estilo base -->
+          <div class="card-content">
+             <span class="chip">${category}</span>
+             <h3 class="card-name">${name}</h3>
+             <p class="card-description">${description}</p>
+          </div>
+          <div class="card-footer-action">
+            <a ${linkAttributes}>
+              Acessar
+            </a>
+          </div>
+        </div>
+      `;
+      // --- FIM DA ATUALIZAÇÃO ---
+    }
+
+    /**
+     * Renderiza a visualização de Carrossel
+     */
+    function renderCarouselView() {
+      swiperInstances.forEach(s => s.destroy(true, true));
+      swiperInstances = [];
+
+      categoriesContainer.innerHTML = ''; 
+
+      const query = searchInput.value.toLowerCase().trim();
+      const selectedCat = categoryFilterElement.value;
+      
+      groupAssistentes(); // Reagrupar com dados possivelmente novos
+      const categoryKeys = Object.keys(groupedAssistentes);
+
+      const filteredCategoryKeys = categoryKeys.filter(category => {
+        const categoryDropdownMatch = (selectedCat === 'Todas' || category === selectedCat);
+        const categorySearchMatch = category.toLowerCase().includes(query);
+        const assistantSearchMatch = groupedAssistentes[category].some(a => (a.name || '').toLowerCase().includes(query));
+        const searchMatch = (query === '' || categorySearchMatch || assistantSearchMatch);
+        return categoryDropdownMatch && searchMatch;
+      });
+
+      if (filteredCategoryKeys.length === 0) {
+        noResults.classList.remove('hidden');
+        return;
+      }
+      noResults.classList.add('hidden');
+
+      filteredCategoryKeys.forEach((category, index) => {
+        const assistentesInCategory = groupedAssistentes[category];
+        
+        // Filtra assistentes DENTRO da categoria se a busca for por nome de assistente
+        let assistentesToRender = assistentesInCategory;
+        if (query !== '' && selectedCat !== 'Todas') {
+             assistentesToRender = assistentesInCategory.filter(a => (a.name || '').toLowerCase().includes(query));
+        }
+        
+        if (assistentesToRender.length === 0) return; // Pula esta categoria se a busca interna não retornar nada
+
+        const swiperId = `swiper-category-${index}`;
+        
+        const sectionHTML = `
+          <section class="mb-12 overflow-hidden" data-category-section="${category}">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4 pb-2 border-b-2 border-[var(--pri)]/30">
+              ${category} <span class="text-base font-normal text-[var(--txt-1)]">(${assistentesToRender.length})</span>
+            </h2>
+            <div class="swiper swiper-container -mx-2 px-2" id="${swiperId}">
+              <div class="swiper-wrapper py-4">
+                ${assistentesToRender.map(a => `<div class="swiper-slide h-auto">${createCardHTML(a)}</div>`).join('')}
+              </div>
+              <div class="swiper-pagination swiper-pagination-bullets-dynamic mt-8"></div>
+              <div class="swiper-button-prev -ml-4 md:-ml-6"></div>
+              <div class="swiper-button-next -mr-4 md:-mr-6"></div>
+            </div>
+          </section>
+        `;
+        categoriesContainer.insertAdjacentHTML('beforeend', sectionHTML);
+
+        const swiperInstance = new Swiper(`#${swiperId}`, {
+          slidesPerView: 1.3, spaceBetween: 16, centeredSlides: false,
+          pagination: { el: `#${swiperId} .swiper-pagination`, clickable: true, dynamicBullets: true },
+          navigation: { nextEl: `#${swiperId} .swiper-button-next`, prevEl: `#${swiperId} .swiper-button-prev` },
+          breakpoints: {
+            640: { slidesPerView: 2.3, spaceBetween: 20 },
+            1024: { slidesPerView: 3.3, spaceBetween: 24 },
+            1280: { slidesPerView: 4.3, spaceBetween: 24 }
+          }
+        });
+        swiperInstances.push(swiperInstance);
+      });
+      
+      // Checa de novo se, após filtrar assistentes internos, algo foi renderizado
+      if (categoriesContainer.innerHTML === '') {
+         noResults.classList.remove('hidden');
+      }
+    }
+
+    /**
+     * Renderiza a visualização em Grid
+     */
+    function renderGridView() {
+      const query = searchInput.value.toLowerCase().trim();
+      const selectedCat = categoryFilterElement.value;
+      
+      const filteredAssistentes = assistentes.filter(a => {
+        const nameMatch = (a.name || '').toLowerCase().includes(query);
+        const categoryMatch = selectedCat === 'Todas' || ((a.category || 'Ferramentas gerais') === selectedCat);
+        return nameMatch && categoryMatch;
+      });
+
+      gridViewContainer.innerHTML = ''; // Limpa o grid
+
+      if (filteredAssistentes.length === 0) {
+        noResults.classList.remove('hidden');
+        return;
+      }
+      noResults.classList.add('hidden');
+      
+      // Assistentes já estão ordenados alfabeticamente pela cleanAssistentesData
+      filteredAssistentes.forEach(assistant => {
+        const cardHTML = createCardHTML(assistant);
+        gridViewContainer.insertAdjacentHTML('beforeend', cardHTML);
+      });
+    }
+
+    /**
+     * Renderiza a visualização ativa (Grid ou Carrossel)
+     */
+    function renderActiveView() {
+      if (currentView === 'carousel') {
+        renderCarouselView();
+      } else {
+        renderGridView();
+      }
+    }
+
+
+    /**
+     * Renderiza a lista de assistentes no painel de admin para modificação.
+     */
+    function renderModifyAssistantList() {
+      if (!modifyAssistantList) return;
+      modifyAssistantList.innerHTML = '';
+      
+      // Lista já está ordenada
+      assistentes.forEach((assistant, index) => {
+        const assistantId = index; // Usa o índice como ID temporário
+
+        const div = document.createElement('div');
+        div.className = 'admin-card p-4 space-y-3'; // Usando admin-card para consistência
+        
+        // --- Linha 1: Nome ---
+        const nameLabel = document.createElement('label');
+        nameLabel.className = 'admin-label';
+        nameLabel.textContent = 'Nome';
+        const nameInput = document.createElement('input');
+        nameInput.type = 'text';
+        nameInput.value = assistant.name;
+        nameInput.className = 'admin-input w-full';
+        nameInput.dataset.index = assistantId;
+        nameInput.addEventListener('change', (e) => handleAssistantUpdate(assistantId, 'name', e.target.value));
+        
+        // --- Linha 2: Categoria ---
+        const catLabel = document.createElement('label');
+        catLabel.className = 'admin-label mt-2';
+        catLabel.textContent = 'Categoria';
+        const select = document.createElement('select');
+        select.className = 'admin-select category-select-dropdown w-full';
+        select.dataset.index = assistantId;
+        
+        predefinedCategories.forEach(category => {
+          const opt = document.createElement('option');
+          opt.value = category;
+          opt.textContent = category;
+          opt.className = 'bg-[var(--bg-0)]';
+          opt.selected = (assistant.category === category);
+          select.appendChild(opt);
+        });
+        select.addEventListener('change', (e) => handleAssistantUpdate(assistantId, 'category', e.target.value));
+
+        // --- Linha 3: Descrição ---
+        const descLabel = document.createElement('label');
+        descLabel.className = 'admin-label mt-2';
+        descLabel.textContent = 'Descrição';
+        const descInput = document.createElement('textarea');
+        descInput.value = assistant.description || '';
+        descInput.className = 'admin-input w-full h-20';
+        descInput.dataset.index = assistantId;
+        descInput.addEventListener('change', (e) => handleAssistantUpdate(assistantId, 'description', e.target.value));
+        
+        // --- Linha 4: Imagem URL ---
+        const imgLabel = document.createElement('label');
+        imgLabel.className = 'admin-label mt-2';
+        imgLabel.textContent = 'URL da Imagem';
+        const imgInput = document.createElement('input');
+        imgInput.type = 'url';
+        imgInput.value = assistant.image || '';
+        imgInput.className = 'admin-input w-full';
+        imgInput.dataset.index = assistantId;
+        imgInput.addEventListener('change', (e) => handleAssistantUpdate(assistantId, 'image', e.target.value));
+
+        // Montagem
+        div.appendChild(nameLabel);
+        div.appendChild(nameInput);
+        div.appendChild(catLabel);
+        div.appendChild(select);
+        div.appendChild(descLabel);
+        div.appendChild(descInput);
+        div.appendChild(imgLabel);
+        div.appendChild(imgInput);
+        
+        modifyAssistantList.appendChild(div);
+      });
+    }
+
+    /**
+     * Função unificada para atualizar assistentes da lista de modificação
+     */
+    function handleAssistantUpdate(index, field, value) {
+        const assistantToUpdate = assistentes[index];
+        if (!assistantToUpdate) return;
+        
+        const oldValue = assistantToUpdate[field];
+        assistantToUpdate[field] = value.trim();
+        
+        showToast(`${field.charAt(0).toUpperCase() + field.slice(1)} atualizado!`);
+        
+        // Se o nome foi mudado, reordena a lista e re-renderiza
+        if (field === 'name') {
+            assistentes.sort((a, b) => a.name.localeCompare(b.name));
+            renderModifyAssistantList(); // Re-renderiza a lista de admin para manter a ordem
+        }
+        
+        renderActiveView(); // Atualiza a view do catálogo
+    }
+    
+    /**
+     * Renderiza todo o painel de admin.
+     */
+    function renderAdminPage() {
+      populateCategoryDropdowns();
+      populateCategoryList();
+      renderModifyAssistantList();
+    }
+    
+    /**
+     * Mostra um toast de feedback simples.
+     */
+    function showToast(message, isError = false) {
+      const toast = document.createElement('div');
+      toast.textContent = message;
+      toast.className = 'fixed bottom-10 right-10 text-white px-6 py-3 rounded-lg shadow-lg font-bold animate-pulse z-50';
+      
+      if (isError) {
+        toast.style.background = 'linear-gradient(90deg, #ff0000, #b30000)'; // Vermelho
+      } else {
+        toast.style.background = 'linear-gradient(90deg, var(--pink), var(--cyan))'; // Padrão
+      }
+      
+      document.body.appendChild(toast);
+      setTimeout(() => {
+        toast.remove();
+      }, 3000);
+    }
+
+    // --- MANIPULADORES DE EVENTOS ---
+
+    function handlePageNavigation(e) {
+      const targetId = e.currentTarget.id;
+      
+      if (targetId === 'adminLink') {
+        catalogPage.classList.add('hidden');
+        adminPage.classList.remove('hidden');
+        
+        adminLink.classList.add('nav-active');
+        adminLink.classList.remove('text-[var(--txt-2)]', 'hover:text-white');
+        
+        catalogLink.classList.remove('nav-active');
+        catalogLink.classList.add('text-[var(--txt-2)]', 'hover:text-white');
+        
+        renderAdminPage(); // Atualiza o admin page sempre que é aberto
+      } else {
+        adminPage.classList.add('hidden');
+        catalogPage.classList.remove('hidden');
+        
+        catalogLink.classList.add('nav-active');
+        catalogLink.classList.remove('text-[var(--txt-2)]', 'hover:text-white');
+
+        adminLink.classList.remove('nav-active');
+        adminLink.classList.add('text-[var(--txt-2)]', 'hover:text-white');
+        
+        renderActiveView(); // Atualiza o catálogo
+      }
+    }
+
+    function handleToggleView() {
+      if (currentView === 'carousel') {
+        // Mudar para Grid
+        currentView = 'grid';
+        categoriesContainer.classList.add('hidden');
+        gridViewContainer.classList.remove('hidden');
+        gridIcon.classList.remove('hidden');
+        carouselIcon.classList.add('hidden');
+        toggleViewBtn.title = "Alternar para visualização em carrossel";
+        renderGridView();
+      } else {
+        // Mudar para Carousel
+        currentView = 'carousel';
+        categoriesContainer.classList.remove('hidden');
+        gridViewContainer.classList.add('hidden');
+        gridIcon.classList.add('hidden');
+        carouselIcon.classList.remove('hidden');
+        toggleViewBtn.title = "Alternar para visualização em grid";
+        renderCarouselView();
+      }
+    }
+
+    function handleAddAssistant(e) {
+      e.preventDefault();
+      const name = document.getElementById('newAssistantName').value;
+      const link = document.getElementById('newAssistantLink').value;
+      const category = document.getElementById('newAssistantCategory').value;
+      // NOVOS CAMPOS
+      const description = document.getElementById('newAssistantDescription').value;
+      const image = document.getElementById('newAssistantImage').value;
+      
+      if (name && link && category) {
+        assistentes.push({ name, link, category, description, image });
+        cleanAssistentesData(); // Garante que não há duplicatas e re-ordena
+        addAssistantForm.reset();
+        showToast('Assistente adicionado!');
+        renderAdminPage(); // Atualiza a lista de modificação
+        renderActiveView(); // Atualiza a view ativa
+      }
+    }
+
+    function handleAddCategory(e) {
+      e.preventDefault();
+      const nameInput = document.getElementById('newCategoryName');
+      const newCategory = nameInput.value.trim();
+      
+      if (newCategory && !predefinedCategories.includes(newCategory)) {
+        predefinedCategories.push(newCategory);
+        predefinedCategories.sort();
+        nameInput.value = '';
+        showToast('Categoria adicionada!');
+        renderAdminPage(); // Atualiza dropdowns e lista
+      }
+    }
+    
+    function handleFileImport(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          const text = event.target.result;
+          const lines = text.split('\n').filter(line => line.trim() !== '');
+          let importedCount = 0;
+          
+          lines.forEach(line => {
+            // Formato 1: Nome;Link;Categoria (com ;Desc;Img opcionais)
+            const parts = line.split(';');
+            if (parts.length >= 3) {
+              let [name, link, category, description = "", image = ""] = parts.map(p => p.trim());
+              
+              if (name && link && category) {
+                // Limpa o nome (remove prefixo, converte para Title Case)
+                name = name.replace(/^(biblos|biblios)-/, '');
+                name = kebabToTitleCase(name);
+                
+                assistentes.push({ name, link, category, description, image });
+                
+                // Adiciona nova categoria se não existir
+                if (!predefinedCategories.includes(category)) {
+                  predefinedCategories.push(category);
+                }
+                importedCount++;
+              }
+            } else {
+              // Formato 2: Nome: ... ; Link: ... (do arquivo sem duplicatas)
+              const match = line.match(/.*?: (.*?) ; (?:Link|link):(https?:\/\/.*)/);
+              if (match && match[1] && match[2]) {
+                let name = match[1].trim();
+                let link = match[2].trim();
+                
+                // Limpa o nome (remove prefixo, converte para Title Case)
+                name = name.replace(/^(biblos|biblios)-/, '');
+                name = kebabToTitleCase(name);
+                
+                // Categoria padrão para este formato
+                let category = 'Ferramentas gerais'; 
+                
+                assistentes.push({ name, link, category, description: "", image: "" });
+                importedCount++;
+              }
+            }
+          });
+          
+          cleanAssistentesData(); // Limpa, desduplica e re-ordena TUDO
+          showToast(`${importedCount} assistentes importados!`);
+          
+          // Re-agrupa e re-renderiza tudo
+          groupAssistentes();
+          renderAdminPage();
+          renderActiveView();
+
+        } catch (error) {
+          console.error("Erro ao importar arquivo:", error);
+          showToast("Erro ao ler o arquivo.", true);
+        }
+      };
+      reader.readAsText(file);
+      e.target.value = null; // Limpa o input para permitir re-upload
+    }
+    
+    // --- INÍCIO DA ATUALIZAÇÃO ---
+    // Atualizado para baixar um arquivo
+    function handleExport() {
+      try {
+        // Limpa os dados antes de exportar
+        cleanAssistentesData();
+        const json = JSON.stringify(assistentes, null, 2);
+        
+        // Cria um Blob com o JSON
+        const blob = new Blob([json], { type: 'application/json' });
+        
+        // Cria um link de download
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'assistentes.json'; // Nome do arquivo
+        
+        // Simula o clique
+        document.body.appendChild(a);
+        a.click();
+        
+        // Limpeza
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        
+        showToast('Download do assistentes.json iniciado!');
+      } catch (error) {
+        console.error("Erro ao exportar JSON:", error);
+        showToast("Falha ao gerar o arquivo JSON.", true);
+      }
+    }
+    // --- FIM DA ATUALIZAÇÃO ---
+
+    // --- INÍCIO DA ATUALIZAÇÃO ---
+    // Função principal assíncrona para carregar dados
+    async function main() {
+      try {
+        const response = await fetch('assistentes.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        assistentes = data;
+        
+        // Esconde a mensagem de carregamento
+        loadingMessage.classList.add('hidden');
+
+        // Continua com a inicialização normal
+        cleanAssistentesData();
+        groupAssistentes();
+        populateCategoryDropdowns();
+        renderActiveView();
+
+      } catch (error) {
+        console.error("Falha ao carregar assistentes.json:", error);
+        // Mostra erro na tela
+        loadingMessage.innerHTML = `
+          <h3 class="text-2xl font-semibold text-red-500">Erro ao carregar dados</h3>
+          <p class="text-[var(--txt-2)] mt-2">
+            Não foi possível carregar o arquivo <code>assistentes.json</code>.
+            <br>
+            Certifique-se de que o arquivo existe e está no mesmo diretório que o HTML.
+            <br>
+            <strong class="text-yellow-500 mt-4 block">Nota: Esta página deve ser acessada através de um servidor (ex: http://), não como um arquivo local (file://).</strong>
+          </p>
+        `;
+      }
+    }
+    // --- FIM DA ATUALIZAÇÃO ---
+
+
+    // --- INICIALIZAÇÃO ---
+    document.addEventListener('DOMContentLoaded', () => {
+      // Selecionar elementos DOM
+      catalogPage = document.getElementById('catalogPage');
+      adminPage = document.getElementById('adminPage');
+      searchInput = document.getElementById('searchInput');
+      categoryFilterElement = document.getElementById('categoryFilter');
+      noResults = document.getElementById('noResults');
+      loadingMessage = document.getElementById('loadingMessage'); // Adicionado
+      addAssistantForm = document.getElementById('addAssistantForm');
+      addCategoryForm = document.getElementById('addCategoryForm');
+      importFile = document.getElementById('importFile');
+      exportButton = document.getElementById('exportButton');
+      // exportTextArea removido
+      categoryListContainer = document.getElementById('categoryListContainer');
+      modifyAssistantList = document.getElementById('modifyAssistantList');
+      adminLink = document.getElementById('adminLink');
+      catalogLink = document.getElementById('catalogLink');
+      toggleViewBtn = document.getElementById('toggleViewBtn');
+      gridIcon = document.getElementById('gridIcon');
+      carouselIcon = document.getElementById('carouselIcon');
+      categoriesContainer = document.getElementById('categoriesContainer');
+      gridViewContainer = document.getElementById('gridViewContainer');
+      
+      // Adiciona os listeners
+      searchInput.addEventListener('input', renderActiveView);
+      categoryFilterElement.addEventListener('change', renderActiveView);
+      adminLink.addEventListener('click', handlePageNavigation);
+      catalogLink.addEventListener('click', handlePageNavigation);
+      toggleViewBtn.addEventListener('click', handleToggleView);
+      
+      // Listeners do Admin
+      if (addAssistantForm) addAssistantForm.addEventListener('submit', handleAddAssistant);
+      if (addCategoryForm) addCategoryForm.addEventListener('submit', handleAddCategory);
+      if (importFile) importFile.addEventListener('change', handleFileImport);
+      if (exportButton) exportButton.addEventListener('click', handleExport);
+
+      // --- INÍCIO DA ATUALIZAÇÃO ---
+      // Chama a função principal para carregar os dados
+      main();
+      // --- FIM DA ATUALIZAÇÃO ---
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,2298 @@
+[
+  {
+    "name": "1 & 2 Crônicas",
+    "link": "https://chatgpt.com/g/g-68371a784de08191b8f0c7c65abd1c6d-especialista-em-1-e-2-cronicas",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado nos livros de 1 & 2 Crônicas.",
+    "image": "img/cronicas.png"
+  },
+  {
+    "name": "1 & 2 Reis",
+    "link": "https://chatgpt.com/g/g-682b38219e808191b9ed302dc7e2ac90-biblos-at-1-2-reis",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado nos livros de 1 & 2 Reis.",
+    "image": "img/reis.png"
+  },
+  {
+    "name": "1 & 2 Samuel",
+    "link": "https://chatgpt.com/g/g-67ebf5e645708191b3212c4275a6d982-biblos-at-1-2-samuel",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado nos livros de 1 & 2 Samuel.",
+    "image": "img/samuel.webp"
+  },
+  {
+    "name": "1 & 2 Tessalonicenses",
+    "link": "https://chatgpt.com/g/g-686c808037f481918b4349c41b8edf2e-biblos-nt-1-2-tessalonicenses",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado nas Epístolas de Paulo aos Tessalonicenses.",
+    "image": "img/tessalonicenses.png"
+  },
+  {
+    "name": "1 Pedro",
+    "link": "https://chatgpt.com/g/g-686dbff35ee081919aa6a666a4edba27-biblos-nt-1-pedro",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado na Primeira Epístola do Apóstolo Pedro.",
+    "image": "img/1pedro.png"
+  },
+  {
+    "name": "1, 2, 3 João",
+    "link": "https://chatgpt.com/g/g-687aed2830008191b3841397da1ec652-biblos-nt-1-2-3-joao",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado nas Epístolas Joaninas.",
+    "image": "img/1-2-3-joao.png"
+  },
+  {
+    "name": "1a aos Coríntios",
+    "link": "https://chatgpt.com/g/g-67a3ba700b308191932f1803dffe1a8a-biblos-nt-1a-corintios",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado na Primiera Epístola de Paulo aos Coríntios.",
+    "image": "img/1a-corintios.webp"
+  },
+  {
+    "name": "2 Pedro & Judas",
+    "link": "https://chatgpt.com/g/g-687abdfb069c81919e630a6a1ae731f7-biblos-nt-2-pedro-judas",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado na Segunda Epístola de Pedro & na Epístola de Judas.",
+    "image": "img/2pedro-judas.png"
+  },
+  {
+    "name": "2a aos Coríntios",
+    "link": "https://chatgpt.com/g/g-67a4b9c9eaa88191bdabcd7e5b5970b6-biblos-nt-2a-corintios",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado na Segunda Epístola de Paulo aos Coríntios.",
+    "image": "img/2a-corintios.webp"
+  },
+  {
+    "name": "A Imitação de Cristo, de Thomas à Kempis",
+    "link": "https://chatgpt.com/g/g-674ef324bb148191a6601c1a8d4c4630-expert-a-imitacao-de-cristo-de-thomas-a-kempis",
+    "category": "Livros",
+    "description": "Assistente especializado no livro \"A Imitação de Cristo\", de Thomas à Kempis.",
+    "image": "img/imitacao-cristo.webp"
+  },
+  {
+    "name": "A Week in the Life",
+    "link": "https://chatgpt.com/g/g-68b5a44758a881918c56303490de796e-a-week-in-the-life",
+    "category": "Contexto",
+    "description": "Assistente baseado na Série 'Uma Semana na Vida de' (Corinto, Roma, Mulher Greco-Romana, Éfeso, Centurião Romano, Escravo, Queda de Jerusalém), que fornece respostas detalhadas e contextuais sobre a vida cotidiana, estruturas sociais, costumes, eventos e perspectivas das pessoas no mundo greco-romano do primeiro século.",
+    "image": "img/A-Week-in-the-Life.png"
+  },
+  {
+    "name": "Aconselhamento Biblico Cristocentrico",
+    "link": "https://chatgpt.com/g/g-67b8caec251c8191bda7c59b193a13c3-aconselhamento-biblico-cristocentrico",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Aconselhamento Casamento",
+    "link": "https://chatgpt.com/g/g-68126f8cad108191937510d4c1744245-aconselhamento-casamento",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Aconselhamento Coracao Idolatra",
+    "link": "https://chatgpt.com/g/g-67f6cdf4d95081918d46594eaa7dc0a4-aconselhamento-coracao-idolatra",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Aconselhamento Cristocentrico",
+    "link": "https://chatgpt.com/g/g-67b8caec251c8191bda7c59b193a13c3-aconselhamento-cristocentrico",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Aconselhamento De Menores",
+    "link": "https://chatgpt.com/g/g-67ccc5825fc881919770a55263112af2-aconselhamento-de-menores",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Aconselhamento Homossexualidade",
+    "link": "https://chatgpt.com/g/g-68260002869081918a1391f57569370e-aconselhamento-homossexualidade",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Aconselhamento Ira",
+    "link": "https://chatgpt.com/g/g-67b4aa48bc0c8191a1921ffbee374e2c-aconselhamento-ira",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Aconselhamento Pureza Sexual",
+    "link": "https://chatgpt.com/g/g-67af8b622f148191809773a2fecf1b10-aconselhamento-pureza-sexual",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Aconselhamento Transformacao",
+    "link": "https://chatgpt.com/g/g-68308932503c8191978d3d241879a26a-aconselhamento-transformacao",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Agente Consultor De Indicacao De Ia",
+    "link": "https://chatgpt.com/g/g-67d259fcf02c8191a77d44fb8422aa65-agente-consultor-de-indicacao-de-ia",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Agente Fluxograma Teologico",
+    "link": "https://chatgpt.com/g/g-67f33e0438288191ba2867abe052e76d-agente-fluxograma-teologico",
+    "category": "Exegese",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Agostinho De Hi",
+    "link": "https://chatgpt.com/g/g-689fbae507a48191a176e26b4248cb82-agostinho-de-hi",
+    "category": "Teologia Histórica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Agregador de Conteúdo",
+    "link": "https://chatgpt.com/g/g-67fe406d08048191af7e5634777e7569-agregador-de-conteudo",
+    "category": "Resenhas / Resumos",
+    "description": "Analisa e sintetiza vários documentos em uma visão única e consolidada, destacando pontos de contato e contrapontos entre as fontes.",
+    "image": "img/agregador-conteudo.png"
+  },
+  {
+    "name": "Amigos Do Logos Curso De Grego Biblico",
+    "link": "https://chatgpt.com/g/g-67edc2d93b508191bbdf514ada142a42-amigos-do-logos-curso-de-grego-biblico",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Analise Do Discurso Biblico Fluxograma",
+    "link": "https://chatgpt.com/g/g-687159f602688191a67e54e3561d7a6a-analise-do-discurso-biblico-fluxograma",
+    "category": "Fluxogramas Textuais (Bíblia)",
+    "description": "Assistente especializado em análise do discurso bíblico baseado na metodologia da Análise do Discurso Bíblico da Lexham. Traduções disponíveis: ARC; ARA; NAA; BKJ; NVI; NVT; NTLH.",
+    "image": "img/discourse-analisys.png"
+  },
+  {
+    "name": "Analista De Semiotica Socioteologica",
+    "link": "https://chatgpt.com/g/g-68bff8b9b14c81918532fffca2719568-analista-de-semiotica-socioteologica",
+    "category": "Contexto",
+    "description": "Especialista em antropologia bíblica, semiótica e hermenêutica tipológica, decifra signos culturais para revelar sua função teológica. Integra contexto histórico e simbolismo canônico, mostrando como o social constitui o teológico e como a cultura é veículo da revelação divina.",
+    "image": "img/semiotica-socioteologica.png"
+  },
+  {
+    "name": "Apocalipse",
+    "link": "https://chatgpt.com/g/g-67b750cc54a08191b82395310c35df1a-biblos-nt-apocalipse",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado no Livro de Apocalipse.",
+    "image": "img/apocalipse.webp"
+  },
+  {
+    "name": "Apolocatolico",
+    "link": "https://chatgpt.com/g/g-6884fb6925d48191af2a3b4b6ece9ee0-apolocatolico",
+    "category": "Apologética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Aprenda Grego Biblico Com Bill Mounce",
+    "link": "https://chatgpt.com/g/g-67f1caefa8fc8191a55b1dc9018b02d9-aprenda-grego-biblico-com-bill-mounce",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Arqueologia Biblica",
+    "link": "https://chatgpt.com/g/g-679570977fac8191951662adeceb9224-arqueologia-biblica",
+    "category": "Contexto",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Arquiteto De Mapas Mentais",
+    "link": "https://chatgpt.com/g/g-67fb2bbe54088191a3dfab07dae4748f-arquiteto-de-mapas-mentais",
+    "category": "Resenhas / Resumos",
+    "description": "Especialista na geração de outlines hierárquicos de qualquer conteúdo para a criação de Mapas Mentais (em português).",
+    "image": "img/mapas-mentais.png"
+  },
+  {
+    "name": "Arquiteto De Prompts Para A Ia Do Logos",
+    "link": "https://chatgpt.com/g/g-68de40ad75c88191a080eb2c22ea3651-arquiteto-de-prompts-para-a-ia-do-logos",
+    "category": "Engenharia de Prompts",
+    "description": "Um especialista em engenharia de prompt e teologia que cria prompts avançados para a IA do Logos, projetados para gerar análises profundas e multifacetadas, superando as limitações de resumo do sistema.",
+    "image": "img/logos-ia-prompt.png"
+  },
+  {
+    "name": "Arte Devocional Patristica",
+    "link": "https://chatgpt.com/g/g-6880d9521fbc8191a8175f432782b44f-arte-devocional-patristica",
+    "category": "Espiritualidade Clássica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "As 4 Paginas Do Sermao De Paul Scott",
+    "link": "https://chatgpt.com/g/g-5Y854m3KO-as-4-paginas-do-sermao-de-paul-scott",
+    "category": "Homilética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "As 4 Paginas Do Sermao De Paul Scott Wilson",
+    "link": "https://chatgpt.com/g/g-5Y854m3KO-as-4-paginas-do-sermao-de-paul-scott-wilson",
+    "category": "Homilética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "As 4 Páginas do Sermão",
+    "link": "https://chatgpt.com/g/g-5Y854m3KO-as-4-paginas-do-sermao-de-paul-scott-wilson",
+    "category": "Sermões",
+    "description": "Assistente especializado no Livro As 4 Páginas do Sermão, de Paul Scott Wilson",
+    "image": "img/4paginas.webp"
+  },
+  {
+    "name": "Assistente De Critica Textual Do Novo Testamento",
+    "link": "https://chatgpt.com/g/g-68a3f68a67fc81918dae9b52d4aa4497-assistente-de-critica-textual-do-novo-testamento",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Assistente De Gf S",
+    "link": "https://chatgpt.com/g/g-679828cfda008191be28afb145065d22-assistente-de-gf-s",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Assistente De Tutoria Apologetic",
+    "link": "https://chatgpt.com/g/g-68e4673640108191b62d96ca0aedfb6a-assistente-de-tutoria-apologetic",
+    "category": "Apologética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Assistente Doutrinario Biblico",
+    "link": "https://chatgpt.com/g/g-68adf34d5a4481919027203e92463868-assistente-doutrinario-biblico",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Assistente Em Bibliologia",
+    "link": "https://chatgpt.com/g/g-67304323488081908e6dcce640bc5e3a-assistente-em-bibliologia",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Assistente Logos",
+    "link": "https://chatgpt.com/g/g-jMOn9rVCK-assistente-logos",
+    "category": "Logos",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Assistente Semantico Biblico",
+    "link": "https://chatgpt.com/g/g-68a2928577cc8191a80a7afdc64bd7d0-assistente-semantico-biblico",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Assistente Teologico Teologia Para Todos",
+    "link": "https://chatgpt.com/g/g-68f009162ae08191ac09de6ba6df1997-assistente-teologico-teologia-para-todos",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Assistente Veritas T",
+    "link": "https://chatgpt.com/g/g-688528ab6e9481918492918aba4fdde0-assistente-veritas-t",
+    "category": "Apologética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Astro Mentor Olimpi",
+    "link": "https://chatgpt.com/g/g-6840c97fd83881919269f8a4771eb1b0-astro-mentor-olimpi",
+    "category": "Ferramentas Pedagógicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "At Factbook",
+    "link": "https://chatgpt.com/g/g-679eb5efb72c819181d2fb07e6de4676-biblos-at-factbook",
+    "category": "Antigo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Atos",
+    "link": "https://chatgpt.com/g/g-6771fc41aaa08191a5f6560393599fb3-biblos-nt-atos",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado no livro de Atos dos Apóstolos.",
+    "image": "img/atos.webp"
+  },
+  {
+    "name": "Avaliador De Prompts",
+    "link": "https://chatgpt.com/g/g-685eda2672e08191ad2eeb33c3a89d06-avaliador-de-prompts",
+    "category": "Engenharia de Prompts",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "AYBD",
+    "link": "https://chatgpt.com/g/g-6797b097c6408191b8e6d1d48f4b459f-biblos-dicionarios-aybd",
+    "category": "Dicionários / Enciclopédias",
+    "description": "Assistente especializado no Anchor Yale Bible Dictionary.",
+    "image": "img/AYBD.webp"
+  },
+  {
+    "name": "BDAG",
+    "link": "https://chatgpt.com/g/g-67ee83efb94481918f17857ca0c07c45-bdag",
+    "category": "Léxicos",
+    "description": "Assistente especializado no BDAG: A Greek-English Lexicon of the New Testament and Other Early Christian Literature, 3rd ed.",
+    "image": "img/BDAG.png"
+  },
+  {
+    "name": "Bestcommentaries Com",
+    "link": "https://chatgpt.com/g/g-68030c4ff5588191be034aaac08eed39-bestcommentaries-com",
+    "category": "Comentários",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Biblia Artistic",
+    "link": "https://chatgpt.com/g/g-68b25cfe91648191892d1ecb9adc9f5b-biblia-artistic",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Biblia Ebc Kids",
+    "link": "https://chatgpt.com/g/g-683615bb72188191a51bb9d3050eb4d5-biblia-ebc-kids",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Biblia Hebraica Stuttgartensia (BHS)",
+    "link": "https://chatgpt.com/g/g-67f5582770188191a9275662d278bd23-biblia-hebraica-stuttgartensia-bhs",
+    "category": "Bíblias",
+    "description": "Assistente especializado no texto, aparato e Masorah da Biblia Hebraica Stuttgartensia (BHS).",
+    "image": "img/BHS.png"
+  },
+  {
+    "name": "Biblieclass",
+    "link": "https://chatgpt.com/g/g-6830745fe6988191a6fe0eff08cb5326-biblieclass",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Biblico De Discurso E Contornos Proposicionai",
+    "link": "https://chatgpt.com/g/g-68a7374edf6c8191a03432ea714095f5-biblico-de-discurso-e-contornos-proposicionai",
+    "category": "Exegese",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Bibliologia",
+    "link": "https://chatgpt.com/g/g-67304323488081908e6dcce640bc5e3a-assistente-em-bibliologia",
+    "category": "Teologia Sistemática",
+    "description": "Assistente especializado em Bibliologia.",
+    "image": "img/bibliologia.webp"
+  },
+  {
+    "name": "Bibliotheca Universalis",
+    "link": "https://chatgpt.com/g/g-68e15d133e588191af4552b621e95e5a-bibliotheca-universalis",
+    "category": "Ferramentas Acadêmicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "C O N T E X T O",
+    "link": "https://chatgpt.com/g/g-690ce37e5f548191a59d7b75848bebee-c-o-n-t-e-x-t-o",
+    "category": "Contexto",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Cantares",
+    "link": "https://chatgpt.com/g/g-678389caba5881918fa84532f384c99a-biblos-at-cantares",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no Livro de Cantares de Salomão.",
+    "image": "img/cantares.webp"
+  },
+  {
+    "name": "Catequista Reformado",
+    "link": "https://chatgpt.com/g/g-6822ac91c0588191a867f918fa5ef139-catequista-reformado",
+    "category": "Teologia Histórica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Chama Dos Seculos",
+    "link": "https://chatgpt.com/g/g-6837a44363d48191910ba2a6cf471374-chama-dos-seculos",
+    "category": "Teologia Histórica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Colossenses & Filemom",
+    "link": "https://chatgpt.com/g/g-685ec1921e008191917f7f4036bdfb46-biblos-nt-colossenses-e-filemom",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado nas Epístolas de Paulo aos Colossenses e a Filemom.",
+    "image": "img/colossenses-filemom.jpg"
+  },
+  {
+    "name": "Compendio Biblico De Traducoes",
+    "link": "https://chatgpt.com/g/g-6758f41e49488191a68bd185236f6beb-compendio-biblico-de-traducoes",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Contabilidade Empresarial",
+    "link": "https://chatgpt.com/g/g-67a2e5c33d648191b0f99b1a1c8755f2-contabilidade-empresarial",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Crítica Textual e Traduções Bíblicas",
+    "link": "https://chatgpt.com/g/g-68af253f5c6481919c03065d0e1fdb5b-critica-textual-e-traducoes-biblicas",
+    "category": "Bíblias",
+    "description": "Especialista nas Sagradas Escrituras para consulta e comparação precisa dos textos e análise de seus aparatos críticos, com acesso a 7 traduções em português (ARC; ARA; NAA; BKJ; NVI; NVT; NTLH), 2 em inglês (AMP; NET2); 1 em latim (VUL); 2 em grego (NA28; LXX) e 1 em hebraico (BHS).",
+    "image": "img/traducoes-biblicas.png"
+  },
+  {
+    "name": "Critica Textual Do Antigo Testamento",
+    "link": "https://chatgpt.com/g/g-68a3fc6546b8819180cb0c527c009616-critica-textual-do-antigo-testamento",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Curador de Assistentes GPT (βύβλος)",
+    "link": "https://chatgpt.com/g/g-6887bd329a708191bfdd9666f6982b40-curador-de-assistentes-gpt-bublos",
+    "category": "Diversos",
+    "description": "Especialista em recomendar assistentes com base nas demandas do usuário.",
+    "image": "img/curador-assistentes.png"
+  },
+  {
+    "name": "Curso de Grego Bíblico",
+    "link": "https://chatgpt.com/g/g-67edc2d93b508191bbdf514ada142a42-curso-de-grego-biblico",
+    "category": "Grego",
+    "description": "Assistente especializado no estudo do Grego Bíblico com pronúncia Iotacista",
+    "image": "img/curso-grego.png"
+  },
+  {
+    "name": "Curso Homens De Palavra",
+    "link": "https://chatgpt.com/g/g-682c98976f8081919627cc8d69c3fb59-curso-homens-de-palavra",
+    "category": "Discipulado",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Cursos Deuteronomio Por Daniel I Block",
+    "link": "https://chatgpt.com/g/g-67e2bd49ee648191a979dd1504ea5652-biblios-cursos-deuteronomio-por-daniel-i-block",
+    "category": "Antigo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Cursos Grego Biblico Com O Prof Paulo Vale",
+    "link": "https://chatgpt.com/g/g-67ed624e33348191bcb8c41aaffba89b-biblos-cursos-grego-biblico-com-o-prof-paulo-vale",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "DBI & ZDBI",
+    "link": "https://chatgpt.com/g/g-67957f58253c8191b2cc4565545437a3-biblos-dicionarios-dbi-zdbi",
+    "category": "Dicionários / Enciclopédias",
+    "description": "Assistente especializado nos seguintes dicionários: Dictionary of Biblical Imagery & Zondervan Dictionary of Biblical Imagery.",
+    "image": "img/DBI_ZDBI.png"
+  },
+  {
+    "name": "DDD",
+    "link": "https://chatgpt.com/g/g-679139f6b38081919a19c5c2292200ca-biblos-dicionarios-ddd",
+    "category": "Dicionários / Enciclopédias",
+    "description": "Assistente especializado no Dictionary of Deities and Demons in the Bible.",
+    "image": "img/DDD.png"
+  },
+  {
+    "name": "Daniel",
+    "link": "https://chatgpt.com/g/g-689f5b43cc3481919c51932e9ebc879a-biblos-at-daniel",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no Livro do profeta Daniel.",
+    "image": "img/daniel.png"
+  },
+  {
+    "name": "Defesa Biblica Contra O Espiritismo",
+    "link": "https://chatgpt.com/g/g-688513d7db6c81918c54143602da9946-defesa-biblica-contra-o-espiritismo",
+    "category": "Apologética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Deuteronômio",
+    "link": "https://chatgpt.com/g/g-67819d7bfe748191a8b789a885d18963-biblos-at-deuteronomio",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado em estudo bíblico indutivo, preparação de sermões, ensaios acadêmicos e discussões abrangentes sobre o livro de Deuteronômio.",
+    "image": "img/deuteronomio.webp"
+  },
+  {
+    "name": "Dicionario Biblico Interativo",
+    "link": "https://chatgpt.com/g/g-675b920b5eb081918a1b02ed37aade0f-dicionario-biblico-interativo",
+    "category": "Dicionários",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Dicionarios Isbe",
+    "link": "https://chatgpt.com/g/g-67aa28e00ee48191ae2e6acc514c5fb3-biblos-dicionarios-isbe",
+    "category": "Dicionários",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Discipulado Aprendiz",
+    "link": "https://chatgpt.com/g/g-6875894954e08191a1d6d6ec105a4b42-biblos-discipulado-aprendiz",
+    "category": "Discipulado",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Diversos Estudo Biblico Indutivo",
+    "link": "https://chatgpt.com/g/g-XFOYGInHV-biblos-diversos-estudo-biblico-indutivo",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Diversos Manual Presbiteriano",
+    "link": "https://chatgpt.com/g/g-67a4be3891f481918f892be7a2bb1079-biblos-diversos-manual-presbiteriano",
+    "category": "Eclesiologia",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Diversos Ntsk",
+    "link": "https://chatgpt.com/g/g-67aa2d1a0ce48191a1dfe62c18e9e9cb-biblos-diversos-ntsk",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Diversos Resenhista Academico",
+    "link": "https://chatgpt.com/g/g-67e72c111e9081919e56f5d7d1dd487d-biblos-diversos-resenhista-academico",
+    "category": "Ferramentas Acadêmicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Diversos Resenhista Teologico",
+    "link": "https://chatgpt.com/g/g-67df8d1047188191a06d3b4ff92927f3-biblos-diversos-resenhista-teologico",
+    "category": "Ferramentas Acadêmicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Diversos Resumo Rapido",
+    "link": "https://chatgpt.com/g/g-67df197262d481918ecca0ba7fce0c4f-biblos-diversos-resumo-rapido",
+    "category": "Ferramentas Acadêmicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Doutrina da Trindade",
+    "link": "https://chatgpt.com/g/g-9cBFw9Vrh-the-trinity-expert",
+    "category": "Teologia Sistemática",
+    "description": "Assistente especializado na Doutrina da Trindade.",
+    "image": "img/trindade.webp"
+  },
+  {
+    "name": "Dr Herman Bavinck Ia",
+    "link": "https://chatgpt.com/g/g-687c1af6f4c0819193c2bba9eaf0b134-dr-herman-bavinck-ia",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Dr Missional",
+    "link": "https://chatgpt.com/g/g-683e291ccbe4819186550d11883506b6-dr-missional",
+    "category": "Eclesiologia",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Eclesiastes",
+    "link": "https://chatgpt.com/g/g-676ef18ad4ac8191ada2ab70272ed3a5-biblos-at-eclesiastes",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no livro de Eclesiastes.",
+    "image": "img/eclesiastes.webp"
+  },
+  {
+    "name": "Efésios",
+    "link": "https://chatgpt.com/g/g-676cebd89fd08191b07efd015a015994-biblos-nt-efesios",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado na Epístola de Paulo aos Efésios.",
+    "image": "img/efesios.webp"
+  },
+  {
+    "name": "Encyclopedia of Ancient Christianity",
+    "link": "https://chatgpt.com/g/g-68caa750661c8191add1c4c2a69aeb07-encyclopedia-of-ancient-christianity",
+    "category": "Dicionários / Enciclopédias",
+    "description": "Um assistente especializado na Enciclopédia do Cristianismo Antigo. Ele fornece verbetes acadêmicos completos com formatação precisa, referências cruzadas e citações completas desta fonte.",
+    "image": "img/EAC.jpg"
+  },
+  {
+    "name": "Engenheiro De Prompts",
+    "link": "https://chatgpt.com/g/g-67faecc0c6e0819191af43d0e37e1ecb-engenheiro-de-prompts",
+    "category": "Engenharia de Prompts",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Engenheiro de Prompts",
+    "link": "https://chatgpt.com/g/g-67faecc0c6e0819191af43d0e37e1ecb-engenheiro-de-prompts",
+    "category": "Engenharia de Prompts",
+    "description": "Especialista na criação, avaliação e aperfeiçoamento de prompts baseado no whitepaper de Boonstra (Google).",
+    "image": "img/engenheiro-prompts.png"
+  },
+  {
+    "name": "Epístolas Pastorais",
+    "link": "https://chatgpt.com/g/g-686d7b035a24819195a697438a927d53-biblos-nt-epistolas-pastorais",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado nas Epístolas de Paulo a Timóteo e Tito.",
+    "image": "img/pastorais.png"
+  },
+  {
+    "name": "Erudito Em Teologia Sistematica",
+    "link": "https://chatgpt.com/g/g-Q1J9b5C5v-erudito-em-teologia-sistematica",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Erudito Teologico A T",
+    "link": "https://chatgpt.com/g/g-6732166ae1308190b893f5446c134f28-erudito-teologico-a-t",
+    "category": "Antigo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Escriba Dos Quadrinhos Biblicos",
+    "link": "https://chatgpt.com/g/g-680d2f1e0138819189c685a56a84b201-escriba-dos-quadrinhos-biblicos",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Esdras & Neemias",
+    "link": "https://chatgpt.com/g/g-6854c135298c8191a2d228a6d47973e5-biblos-nt-esdras-neemias",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado nos livros de Esdras & Neemias.",
+    "image": "img/esdras-neemias.png"
+  },
+  {
+    "name": "Especialista em Apologética Cristã",
+    "link": "https://chatgpt.com/g/g-68826e4783d88191894adb191d0620c9-mestre-em-apologetica",
+    "category": "Apologética",
+    "description": "Um mestre Apologeta, capaz de ensinar os cristãos essa importante área teológica e fornecer respostas fundamentadas às questões mais difíceis da fé cristã ortodoxa.",
+    "image": "img/mestre-apologetica.png"
+  },
+  {
+    "name": "Especialista em Contexto Bíblico",
+    "link": "https://chatgpt.com/g/g-68af3d9d62548191b1c332de0c8b4607-especialista-em-contexto-biblico",
+    "category": "Contexto",
+    "description": "Assistente Histórico-Cultural Bíblico cuja função é servir como ferramenta de pesquisa especializada para a etapa de análise contextual da exegese bíblica, fornecendo informações profundas e multifacetadas sobre o mundo bíblico.",
+    "image": "img/contexto-biblico.png"
+  },
+  {
+    "name": "Especialista em Dicionários Teológicos",
+    "link": "https://chatgpt.com/g/g-68d437e395e88191a2b9f404004fed5f-especialista-em-dicionarios-teologicos",
+    "category": "Dicionários / Enciclopédias",
+    "description": "Dicionários disponíveis: Evangelical Dictionary of Theology (3rd Ed.); New Dictionary of Theology (2nd Ed.); The Westminster Dictionary of Theological Terms (2nd Ed.); Dictionary of Theological Terms; Global Dictionary of Theology; The Dictionary of Historical Theology.",
+    "image": "img/dicionarios-teologicos.jpg"
+  },
+  {
+    "name": "Especialista em Exegese Bíblica",
+    "link": "https://chatgpt.com/g/g-68af4bd04ab88191bb9a2e6347255789-especialista-em-exegese-biblica",
+    "category": "Diversos",
+    "description": "Ensina e guia a exegese com rigor, produzindo análises completas e pedagógicas que capacitam o usuário a pensar biblicamente e a escrever teologicamente.",
+    "image": "img/exegese-biblica.png"
+  },
+  {
+    "name": "Especialista Em 1 2 Samuel",
+    "link": "https://chatgpt.com/g/g-682be4d76de88191a8b63e308243ca39-especialista-em-1-2-samuel",
+    "category": "Antigo Testamento",
+    "description": "",
+    "image": ""
+  },
+ {
+    "name": "Especialista Em Cosmovisao",
+    "link": "https://chatgpt.com/g/g-69037ac4d7d88191b8f2e88b7d4d4ee0-especialista-em-cosmovisao",
+    "category": "Filosofia",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista Em Dicionarios Teologicos",
+    "link": "https://chatgpt.com/g/g-68d437e395e88191a2b9f404004fed5f-especialista-em-dicionarios-teologicos",
+    "category": "Dicionários",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista Em Estudos Paulinos",
+    "link": "https://chatgpt.com/g/g-6731de78ff988190b46ef9a5e5d52c40-especialista-em-estudos-paulinos",
+    "category": "Novo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista Em Intertextualidade Biblica",
+    "link": "https://chatgpt.com/g/g-676dd755f8b08191a97b6ef84b33796b-especialista-em-intertextualidade-biblica",
+    "category": "Exegese",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista Em Lideranca",
+    "link": "https://chatgpt.com/g/g-67b3cb71d1488191b33cada5f7e6ecbf-especialista-em-lideranca",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista Em Plantacao Revitalizacao De Igrejas",
+    "link": "https://chatgpt.com/g/g-673999a84e588191b2d1351ac0d83768-especialista-em-plantacao-revitalizacao-de-igrejas",
+    "category": "Eclesiologia",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista Em Prompts Teologicos",
+    "link": "https://chatgpt.com/g/g-67d077d193688191897a755073760324-especialista-em-prompts-teologicos",
+    "category": "Engenharia de Prompts",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista Na Escrita",
+    "link": "https://chatgpt.com/g/g-67905f797c4c8191a973b538c841f483-especialista-na-escrita",
+    "category": "Ferramentas Acadêmicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista Na Preparacao E Entrega De Sermoes",
+    "link": "https://chatgpt.com/g/g-673bcf1147c481919f17a471ab5f44e4-especialista-na-preparacao-e-entrega-de-sermoes",
+    "category": "Homilética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista No Estudo Esposicao De Eclesiastes",
+    "link": "https://chatgpt.com/g/g-676ef18ad4ac8191ada2ab70272ed3a5-especialista-no-estudo-esposicao-de-eclesiastes",
+    "category": "Antigo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista No Estudo Esposicao De Efesios",
+    "link": "https://chatgpt.com/g/g-676cebd89fd08191b07efd015a015994-especialista-no-estudo-esposicao-de-efesios",
+    "category": "Novo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especialista No Estudo Esposicao De Genesis",
+    "link": "https://chatgpt.com/g/g-675e5765d5248191b0fadbee5dd43f7c-especialista-no-estudo-esposicao-de-genesis",
+    "category": "Antigo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Especializacao Em Teologia Do At",
+    "link": "https://chatgpt.com/g/g-67ddec8dd6e881918ce503f0754cee14-especializacao-em-teologia-do-at",
+    "category": "Antigo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Estrategias Missionarias Em Paises De Perseguicao",
+    "link": "https://chatgpt.com/g/g-68a4bb80bed88191996653dbc5fb1dc2-estrategias-missionarias-em-paises-de-perseguicao",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Estudando A Biblia Em Classe",
+    "link": "https://chatgpt.com/g/g-Qxc9GwafO-estudando-a-biblia-em-classe",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Estudando Grego Biblico Com Merkle Plummer",
+    "link": "https://chatgpt.com/g/g-67f21aad08248191a3e703d1bc353ca0-estudando-grego-biblico-com-merkle-plummer",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Estudando Grego Bíblico com Bill Mounce",
+    "link": "https://chatgpt.com/g/g-67f1caefa8fc8191a55b1dc9018b02d9-aprenda-grego-biblico-com-bill-mounce",
+    "category": "Grego",
+    "description": "Assistente especializado no estudo de Grego Bíblico segundo a visão de William D. Mounce.",
+    "image": "img/Bill-Mounce.jpg"
+  },
+  {
+    "name": "Estudando Grego Bíblico com Daniel Wallace",
+    "link": "https://chatgpt.com/g/g-67f2951107a88191b84171235cbe2272-estudando-grego-biblico-com-daniel-wallace",
+    "category": "Grego",
+    "description": "Assistente especializado no estudo de Grego Bíblico segundo a visão de Daniel B. Wallace.",
+    "image": "img/Daniel-B.-Wallace.jpg"
+  },
+  {
+    "name": "Estudando Grego Bíblico com Merkle & Plummer",
+    "link": "https://chatgpt.com/g/g-67f21aad08248191a3e703d1bc353ca0-estudando-grego-biblico-com-merkle-plummer",
+    "category": "Grego",
+    "description": "Assistente especializado no estudo de Grego Bíblico segundo a visão de Benjamin L. Merkle & Robert L. Plummer.",
+    "image": "img/merkle-plummer.png"
+  },
+  {
+    "name": "Estudando Grego/Exegese com o Prof. Antônio Carlos",
+    "link": "https://chatgpt.com/g/g-67f2e9489b0481918029da7ba0257fb5-estudando-grego-exegese-com-o-prof-antonio-carlos",
+    "category": "Grego",
+    "description": "Assistente especializado no estudo de Grego Bíblico (módulos 1, 2 e 3) e Exegese do Grego segundo a visão do Prof. Antônio Carlos Florêncio.",
+    "image": "img/antonio-carlos-florencio.jpg"
+  },
+  {
+    "name": "Estudando Hebraico Biblico Com Pratico Van Pelt",
+    "link": "https://chatgpt.com/g/g-67f56a46e2508191956f8862f1b26848-estudando-hebraico-biblico-com-pratico-van-pelt",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Estudando Hebraico Bíblico com Pratico & Van Pelt",
+    "link": "https://chatgpt.com/g/g-67f56a46e2508191956f8862f1b26848-estudando-hebraico-biblico-com-pratico-van-pelt",
+    "category": "Hebraico",
+    "description": "Assistente especializado no estudo do Hebraico Bíblico segundo o método de Gary D. PRATICO & Miles V. VAN PELT.",
+    "image": "img/pratico_van-pelt.png"
+  },
+  {
+    "name": "Etica Crista",
+    "link": "https://chatgpt.com/g/g-67f8490170f481918d08d8badc8cd400-etica-crista",
+    "category": "Ética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Expert A Imitacao De Cristo De Thomas A Kempis",
+    "link": "https://chatgpt.com/g/g-674ef324bb148191a6601c1a8d4c4630-expert-a-imitacao-de-cristo-de-thomas-a-kempis",
+    "category": "Espiritualidade Clássica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Extrator De Tags Para Obsidian Pt Br",
+    "link": "https://chatgpt.com/g/g-680c4186bc90819183013e2553ffbf45-extrator-de-tags-para-obsidian-pt-br",
+    "category": "Obsidian",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Ezequiel",
+    "link": "https://chatgpt.com/g/g-6779d698f1648191b97225a8fa427272-biblos-at-ezequiel",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no Livro do profeta Ezequiel.",
+    "image": "img/ezequiel.webp"
+  },
+  {
+    "name": "Factbook do AT",
+    "link": "https://chatgpt.com/g/g-679eb5efb72c819181d2fb07e6de4676-biblos-at-factbook",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado em informações sobre os livros do Antigo Testamento.",
+    "image": "img/factbook-at.webp"
+  },
+  {
+    "name": "Factbook do NT",
+    "link": "https://chatgpt.com/g/g-67a03e7fff2081918cf1b04f1e0cb1ef-biblos-nt-factbook",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado em informações sobre os livros do Novo Testamento.",
+    "image": "img/factbook-nt.webp"
+  },
+  {
+    "name": "Figuras de Linguagem Bíblicas com Bullinger",
+    "link": "https://chatgpt.com/g/g-67f409cc179c8191873b4f2cf3e6c64f-figuras-de-linguagem-biblicas-com-bullinger",
+    "category": "Livros",
+    "description": "Assistente baseado na obra de E. W. Bullinger para explicar as figuras de linguagem bíblicas.",
+    "image": "img/bullinger.png"
+  },
+  {
+    "name": "Filipenses",
+    "link": "https://chatgpt.com/g/g-67a53a189f5481919f68819a586b081b-biblos-nt-filipenses",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado na Epístola de Paulo aos Filipenses.",
+    "image": "img/filipenses.webp"
+  },
+  {
+    "name": "Formatador Obsidian Em Portugues",
+    "link": "https://chatgpt.com/g/g-680e7fd7d000819180deb74a912d4f71-formatador-obsidian-em-portugues",
+    "category": "Obsidian",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Forrest Gump",
+    "link": "https://chatgpt.com/g/g-690b5ceb7bd88191ad44d34ee1317b0b-forrest-gump",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Gênesis",
+    "link": "https://chatgpt.com/g/g-675e5765d5248191b0fadbee5dd43f7c-biblos-at-genesis",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no livro de Gênesis.",
+    "image": "img/genesis.webp"
+  },
+  {
+    "name": "Gerador Canonico De Links Biblicos Obsidian",
+    "link": "https://chatgpt.com/g/g-68b8a3fd39e08191a3de648714d775a0-gerador-canonico-de-links-biblicos-obsidian",
+    "category": "Obsidian",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Geopolitica E Redencao",
+    "link": "https://chatgpt.com/g/g-68a49d5ce5ec8191bd7100ba8cdfb748-geopolitica-e-redencao",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Gramatica Portuguesa",
+    "link": "https://chatgpt.com/g/g-67cf1eee223c8191810c9a8ab1cb0a8f-gramatica-portuguesa",
+    "category": "Ferramentas Pedagógicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Growth Mentor",
+    "link": "https://chatgpt.com/g/g-677b17ab9b7c81919631876490af126c-growth-mentor",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Guia De Ata Batista",
+    "link": "https://chatgpt.com/g/g-6776e43bb83c8191917d666276644210-guia-de-ata-batista",
+    "category": "Eclesiologia",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Guia De Recursos Biblicos Reformado",
+    "link": "https://chatgpt.com/g/g-68dec69695708191bf9f4b116fa2e81d-guia-de-recursos-biblicos-reformado",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Guia De Recursos Biblicos Reformados",
+    "link": "https://chatgpt.com/g/g-68dec69695708191bf9f4b116fa2e81d-guia-de-recursos-biblicos-reformados",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Guia Do Ministerio Pastoral",
+    "link": "https://chatgpt.com/g/g-68fd9463749081918252a003aad44231-guia-do-ministerio-pastoral",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Guialogos Bible Softwar",
+    "link": "https://chatgpt.com/g/g-67ccae48b6b4819199fa2f57982e8020-guialogos-bible-softwar",
+    "category": "Logos",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Guialogos Bible Software",
+    "link": "https://chatgpt.com/g/g-67ccae48b6b4819199fa2f57982e8020-guialogos-bible-software",
+    "category": "Logos",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "HALOT",
+    "link": "https://chatgpt.com/g/g-67eea719e11c81918e582cd5f3e41f4b-halot",
+    "category": "Léxicos",
+    "description": "Assistente especializado no HALOT: The Hebrew and Aramaic Lexicon of the Old Testament.",
+    "image": "img/HALOT.webp"
+  },
+  {
+    "name": "Hebreus",
+    "link": "https://chatgpt.com/g/g-67b86fc2d6a08191b78614a72764289a-biblos-nt-hebreus",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado na Epístola aos Hebreus.",
+    "image": "img/hebreus.webp"
+  },
+  {
+    "name": "Hermeneutica Pura E Simples",
+    "link": "https://chatgpt.com/g/g-68f649f724a48191b7324d50e7fff973-hermeneutica-pura-e-simples",
+    "category": "Exegese",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Historia Da Igreja",
+    "link": "https://chatgpt.com/g/g-679429cb6ac4819186f8adfe1e27f6bf-historia-da-igreja",
+    "category": "Teologia Histórica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "História do Pensamento Cristão",
+    "link": "https://chatgpt.com/g/g-686b38504d8c81918274f720b0a7951e-biblos-historia-do-pensamento-cristao",
+    "category": "História",
+    "description": "Assistente especializado na História do Pensamento Cristão, desde as origens do Cristianismo até o período Pós-Moderno.",
+    "image": "img/historia-pensamento-cristao.png"
+  },
+  {
+    "name": "Ibpv Professor De Teologia Biblica",
+    "link": "https://chatgpt.com/g/g-681963f6d5d081918c17921ca3c74926-ibpv-professor-de-teologia-biblica",
+    "category": "Teologia Bíblica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Ibpv Tb",
+    "link": "https://chatgpt.com/g/g-681963f6d5d081918c17921ca3c74926-ibpv-tb",
+    "category": "Teologia Bíblica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Indicaia",
+    "link": "https://chatgpt.com/g/g-67d259fcf02c8191a77d44fb8422aa65-indicaia",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Inductive Bible Study Expert",
+    "link": "https://chatgpt.com/g/g-XFOYGInHV-inductive-bible-study-expert",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+   {
+    "name": "Ingles Em Contexto",
+    "link": "https://chatgpt.com/g/g-68b0d7c19bb481918a8925ddf2dbb8de-ingles-em-contexto",
+    "category": "Ferramentas Pedagógicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Interbiblico Ai",
+    "link": "https://chatgpt.com/g/g-680437867e788191ba8604d2ffa2c648-interbiblico-ai",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Intertextualidade Bíblica",
+    "link": "https://chatgpt.com/g/g-676dd755f8b08191a97b6ef84b33796b-biblos-diversos-intertextualidade-biblica",
+    "category": "Intertextualidade Bíblica",
+    "description": "Assistente especializado em Intertextualidade Bíblica.",
+    "image": "img/intertextualidade.webp"
+  },
+  {
+    "name": "Introducao Ao Mundo Do Novo Testamento",
+    "link": "https://chatgpt.com/g/g-68269958195881919855c54fb12cedd3-introducao-ao-mundo-do-novo-testamento",
+    "category": "Contexto",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Isaías",
+    "link": "https://chatgpt.com/g/g-6889041a7f0081919dc6fb7d681cfb51-biblos-at-isaias",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no Livro do profeta Isaías.",
+    "image": "img/isaias.png"
+  },
+  {
+    "name": "ISBE",
+    "link": "https://chatgpt.com/g/g-67aa28e00ee48191ae2e6acc514c5fb3-biblos-dicionarios-isbe",
+    "category": "Dicionários / Enciclopédias",
+    "description": "Assistente especializado na International Standard Bible Encyclopedia, Revised",
+    "image": "img/ISBE-Rev.webp"
+  },
+  {
+    "name": "IVP Bible Dictionaries (10 vols.)",
+    "link": "https://chatgpt.com/g/g-68c94a328dd4819197f5d14ea8368bd5-ivp-bible-dictionaries-10-vols",
+    "category": "Dicionários / Enciclopédias",
+    "description": "Um especialista na série IVP 'Black' Bible Dictionaries. Fornece definições acadêmicas completas com formatação precisa e citações desta coleção específica.",
+    "image": "img/IVP_Black.png"
+  },
+  {
+    "name": "Jean Paul Sar",
+    "link": "https://chatgpt.com/g/g-689e7867557881918cf61917464f372a-jean-paul-sar",
+    "category": "Filosofia",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Jeremias",
+    "link": "https://chatgpt.com/g/g-689e1e8f3e1881918732508c47573f55-biblos-at-jeremias",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no Livro do profeta Jeremias.",
+    "image": "img/jeremias.png"
+  },
+  {
+    "name": "Jó",
+    "link": "https://chatgpt.com/g/g-67819ce198d081918b73bcd220b3a2b5-biblos-at-jo",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no livro de Jó.",
+    "image": "img/jo.webp"
+  },
+  {
+    "name": "João",
+    "link": "https://chatgpt.com/g/g-677c3f9ad3e881919361d01e35e4c8fe-biblos-nt-joao",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado no Evangelho de João.",
+    "image": "img/joao.webp"
+  },
+  {
+    "name": "John Piper I",
+    "link": "https://chatgpt.com/g/g-683e463849bc81918d877133afa91024-john-piper-i",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Jonathan Edwards",
+    "link": "https://chatgpt.com/g/g-6838f48b4ca0819183d54b3576464a39-jonathan-edwards",
+    "category": "Teologia Histórica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Josué",
+    "link": "https://chatgpt.com/g/g-67a6010f8ce88191bda1a97d40779761-biblos-at-josue",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no Livro de Josué.",
+    "image": "img/josue.webp"
+  },
+  {
+    "name": "Juízes",
+    "link": "https://chatgpt.com/g/g-67a6134b8d9881918c6f6ff0dad0b29d-biblos-at-juizes",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no Livro de Juízes.",
+    "image": "img/juizes.webp"
+  },
+  {
+    "name": "Lamentações",
+    "link": "https://chatgpt.com/g/g-689f3a30008c819190c25ee078f6457c-biblos-at-lamentacoes",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no Livro das Lamentações do profeta Jeremias.",
+    "image": "img/lamentacoes.png"
+  },
+  {
+    "name": "Lectio Divina",
+    "link": "https://chatgpt.com/g/g-68f23e6f38ac8191828d56e9b5b533be-lectio-divina",
+    "category": "Devocional",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Lendo A Biblia Do Texto Ao Texto",
+    "link": "https://chatgpt.com/g/g-690a9be23e9c819182421ed2fd880d12-lendo-a-biblia-do-texto-ao-texto",
+    "category": "Exegese",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Levítico",
+    "link": "https://chatgpt.com/g/g-67803778576c8191a4c54c18669a1f11-biblos-at-levitico",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no livro de Levítico.",
+    "image": "img/levitico.webp"
+  },
+  {
+    "name": "Lexis Tradutor",
+    "link": "https://chatgpt.com/g/g-67ba9a6be904819196828957842095b5-lexis-tradutor",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Lider Do Louvor Ia",
+    "link": "https://chatgpt.com/g/g-679fd4c1a0a881918e7be256fe4e9fc3-lider-do-louvor-ia",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Links Em Textos Para Obsidian",
+    "link": "https://chatgpt.com/g/g-682ddbd179fc8191b9cf0c500c05aa31-links-em-textos-para-obsidian",
+    "category": "Obsidian",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Livros No Obsidian",
+    "link": "https://chatgpt.com/g/g-67fc5f64225c8191b7c25122fadc270b-livros-no-obsidian",
+    "category": "Obsidian",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Logos Expert",
+    "link": "https://chatgpt.com/g/g-E4UQU2tmd-logos-expert",
+    "category": "Logos",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Logos Na Pratica",
+    "link": "https://chatgpt.com/g/g-67cc664b1a648191bbe5f570d2609b55-logos-na-pratica",
+    "category": "Logos",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Louw-Nida",
+    "link": "https://chatgpt.com/g/g-67eed18ed98c81918bac6c425566b2bb-louw-nida",
+    "category": "Léxicos",
+    "description": "Assistente especializado no Greek-English Lexicon of the New Testament based on Semantic Domains, 2nd Ed.",
+    "image": "img/louw-nida.png"
+  },
+  {
+    "name": "Lucas",
+    "link": "https://chatgpt.com/g/g-677244618ac88191bbd992adcb0152ee-biblos-nt-lucas",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado no Evangelho de Lucas.",
+    "image": "img/lucas.webp"
+  },
+  {
+    "name": "Lyra: especialista em otimização de prompts",
+    "link": "https://chatgpt.com/g/g-687fd10342c88191805428acc3b9dabb-lyra-especialista-em-otimizacao-de-prompts",
+    "category": "Engenharia de Prompts",
+    "description": "Especialista em transformar pedidos em prompts eficazes para IA.",
+    "image": "img/lyra.png"
+  },
+  {
+    "name": "Maestro Inspiracoes",
+    "link": "https://chatgpt.com/g/g-67a25cf8fcac8191aa09bb547af86b6d-maestro-inspiracoes",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Maiêutica Socrática Teológica",
+    "link": "https://chatgpt.com/g/g-67508041e9188191940988b292f6e980-biblos-diversos-maieutica-socratica",
+    "category": "Mentoria",
+    "description": "Assistente especializado na Maiêutica Socrática focado em questões teológicas.",
+    "image": "img/ms.png"
+  },
+  {
+    "name": "Maiêutica Socrática Universal",
+    "link": "https://chatgpt.com/g/g-682b657b76948191a148134de1b393c2-maieutica-socratica-universal",
+    "category": "Mentoria",
+    "description": "Assistente especializado na Maiêutica Socrática para qualquer área do conhecimento.",
+    "image": "img/msa.png"
+  },
+  {
+    "name": "Manual Presbiteriano",
+    "link": "https://chatgpt.com/g/g-67a4be3891f481918f892be7a2bb1079-biblos-diversos-manual-presbiteriano",
+    "category": "Igreja",
+    "description": "Assistente especializado no Manual Presbiteriano da IPB.",
+    "image": "img/logo-ipb.jpeg"
+  },
+  {
+    "name": "Marcos",
+    "link": "https://chatgpt.com/g/g-677b1ff6b87c819190841cc51ea3a6c4-biblos-nt-marcos",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado no Evangelho de Marcos.",
+    "image": "img/marcos.webp"
+  },
+  {
+    "name": "Mateus",
+    "link": "https://chatgpt.com/g/g-6774f18774cc8191945ab31d911addb2-biblos-nt-mateus",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado no Evangelho de Mateus.",
+    "image": "img/mateus.webp"
+  },
+  {
+    "name": "Mentor de Consumo e Produção Crítica",
+    "link": "https://chatgpt.com/g/g-68c76e2716048191b0fc71ea1898c95e-tutor-socratico",
+    "category": "Obsidian",
+    "description": "Mentor socrático focado no Obsidian que orienta leitura, reflexão e escrita, unindo métodos de Zettelkasten, PKM, PARA, CODE e estilo claro. Ajuda você a transformar notas em conhecimento vivo, superando bloqueios e produzindo textos com autonomia e sentido.",
+    "image": "img/mentor-obsidian.png"
+  },
+  {
+    "name": "Mentor de Oração",
+    "link": "https://chatgpt.com/g/g-68f46926221c8191a60e8027f71894f5-mentor-de-oracao",
+    "category": "Mentoria",
+    "description": "Um especialista em oração, fundamentado na teologia bíblica e na sabedoria histórica, dedicado a aprofundar sua comunhão com Deus com teologia sólida e profundidade espiritual.",
+    "image": "img/mentor-oracao.png"
+  },
+  {
+    "name": "Mentor De Consumo E Producao Critica",
+    "link": "https://chatgpt.com/g/g-68bb6d2b1ff881919c89ee4afc4ec8a8-mentor-de-consumo-e-producao-critica",
+    "category": "Ferramentas Acadêmicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Mentor De Lideres Biblicos",
+    "link": "https://chatgpt.com/g/g-67f06ea2836481918d5c714d24c056d5-mentor-de-lideres-biblicos",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Mentor para Ministério de Jovens/Adolescentes",
+    "link": "https://chatgpt.com/g/g-687ec53457b08191a9802ec60ca66a4b-mentor-para-ministerio-de-adolescentes",
+    "category": "Mentoria",
+    "description": "Mentoria para líderes, pastores e voluntários que desejam construir um ministério cristão, bíblico, relevante e sustentável com jovens/adolescentes.",
+    "image": "img/mentor-ministerio-adolescente.png"
+  },
+  {
+    "name": "Mentor Pedagógico Cristão",
+    "link": "https://chatgpt.com/g/g-687d51d7f4d08191a40da7fdb1c83f0f-mentor-pedagogico-cristao",
+    "category": "Mentoria",
+    "description": "Mentor pedagógico cristão para aulas criativas e práticas da Escola Bíblica",
+    "image": "img/mentor-pedagogico-cristao.png"
+  },
+  {
+    "name": "Mentora para Ministério Infantil",
+    "link": "https://chatgpt.com/g/g-687e7cfbb9f881919afddcc5c0229251-mentora-em-ministerio-infantil",
+    "category": "Mentoria",
+    "description": "Especialista em Ministério Infantil Cristão com respostas práticas e biblicamente fundamentadas.",
+    "image": "img/mentora-ministerio-infantil.png"
+  },
+  {
+    "name": "Mestre Da Caixa De Notas",
+    "link": "https://chatgpt.com/g/g-68b6f47480508191a984576700157ddc-mestre-da-caixa-de-notas",
+    "category": "Obsidian",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Mestre De Escatologia Biblica",
+    "link": "https://chatgpt.com/g/g-68f7cf3827f081919097a44e4a0b4f67-mestre-de-escatologia-biblica",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Mestre Do Prompts",
+    "link": "https://chatgpt.com/g/g-67905fb2fa1c8191a93b3750594b5ea7-mestre-do-prompts",
+    "category": "Engenharia de Prompts",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Mestre Do Tcc",
+    "link": "https://chatgpt.com/g/g-hAPUrLvUU-mestre-do-tcc",
+    "category": "Ferramentas Acadêmicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Mestre dos Prompts",
+    "link": "https://chatgpt.com/g/g-68a79ea0c948819189ecd0982ff4afbb-mestre-dos-prompts-anthropic",
+    "category": "Engenharia de Prompts",
+    "description": "Consultor especialista que cria prompts robustos em 10 passos, baseado na metodologia da Anthropic",
+    "image": "img/mestre-prompts.png"
+  },
+  {
+    "name": "Mestre Estrategico Da Palavra",
+    "link": "https://chatgpt.com/g/g-6831eec903c0819199fbfefd466b9ebc-mestre-estrategico-da-palavra",
+    "category": "Homilética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Métodos de Estudo Bíblico de Rick Warren",
+    "link": "https://chatgpt.com/g/g-cJ4IdATdq-rick-warren-s-bible-study-methods",
+    "category": "Estudo Bíblico",
+    "description": "Escolha 1 dentre os 12 métodos de estudo bíblico e mergulho fundo na Palavra de Deus",
+    "image": "img/rick-warren.jpg"
+  },
+  {
+    "name": "Michael Jackson Professor De Canto",
+    "link": "https://chatgpt.com/g/g-688bf387644881918b12a914ba8838b0-michael-jackson-professor-de-canto",
+    "category": "Ferramentas Pedagógicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Mordomo Financeiro",
+    "link": "https://chatgpt.com/g/g-67948a2412388191a16adfdd26073c1b-mordomo-financeiro",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "NIB",
+    "link": "https://chatgpt.com/g/g-67911e3394788191b61c27c4f5654600-biblos-dicionarios-nib",
+    "category": "Dicionários / Enciclopédias",
+    "description": "Assistente especializado no The New Interpreter's Dictionary of the Bible.",
+    "image": "img/NIB.webp"
+  },
+  {
+    "name": "NT Grego da Família 35 de Pickering (F35)",
+    "link": "https://chatgpt.com/g/g-67f8f06fce788191b8729461ec626371-nt-grego-da-familia-35-de-pickering-f35",
+    "category": "Bíblias",
+    "description": "Especialista no texto, aparato e comentário dos manuscritos da Família 35, do Novo Testamento Grego de Pickering.",
+    "image": "img/F35.png"
+  },
+  {
+    "name": "NTSK",
+    "link": "https://chatgpt.com/g/g-67aa2d1a0ce48191a1dfe62c18e9e9cb-biblos-diversos-ntsk",
+    "category": "Referências Cruzadas",
+    "description": "Assistente especializado no The New Treasury of Scripture Knowledge.",
+    "image": "img/NTSK.png"
+  },
+  {
+    "name": "Narrador Biblico",
+    "link": "https://chatgpt.com/g/g-68a81a29893c819196a191b1df75e6ba-narrador-biblico",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+    {
+    "name": "Neemias At Bibleclass",
+    "link": "https://chatgpt.com/g/g-67d62a4596fc81919622d33c5d8b07cc-neemias-at-bibleclass",
+    "category": "Antigo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Nestle-Aland Greek New Testament, 28th Edition (NA28)",
+    "link": "https://chatgpt.com/g/g-67f6e1d4837081919bcf8f98d6390e82-novo-testamento-grego-na28",
+    "category": "Bíblias",
+    "description": "Assistente especializado no texto, aparato e crítica do Nestle-Aland Greek New Testament, 28th Edition (NA28).",
+    "image": "img/NA28.png"
+  },
+  {
+    "name": "Novo Testamento Grego Baseado Na Familia 35 F35",
+    "link": "https://chatgpt.com/g/g-67f8f06fce788191b8729461ec626371-novo-testamento-grego-baseado-na-familia-35-f35",
+    "category": "Novo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Novo Testamento Grego Na28",
+    "link": "https://chatgpt.com/g/g-67f6e1d4837081919bcf8f98d6390e82-novo-testamento-grego-na28",
+    "category": "Novo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Nt Factbook",
+    "link": "https://chatgpt.com/g/g-67a03e7fff2081918cf1b04f1e0cb1ef-biblos-nt-factbook",
+    "category": "Novo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Nt Panorama",
+    "link": "https://chatgpt.com/g/g-679bc433d7bc819198af048741744105-biblos-nt-panorama",
+    "category": "Novo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Nt Teologia Biblica",
+    "link": "https://chatgpt.com/g/g-67924bf39a948191a42199d2812aa70e-biblos-nt-teologia-biblica",
+    "category": "Teologia Bíblica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Nutri Gpt Nutricionista",
+    "link": "https://chatgpt.com/g/g-u8VystGg5-nutri-gpt-nutricionista",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Números",
+    "link": "https://chatgpt.com/g/g-678069f6a188819188b313ee4cf6dd2b-biblos-at-numeros",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no livro de Números.",
+    "image": "img/numeros.webp"
+  },
+  {
+    "name": "Obsidian Helper",
+    "link": "https://chatgpt.com/g/g-teO7z5Tfs-obsidian-helper",
+    "category": "Obsidian",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Panorama do AT",
+    "link": "https://chatgpt.com/g/g-679e8e5360948191adc8dd8dae100b09-biblos-at-panorama",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado nos aspectos panorâmicos e introdutórios do Antigo Testamento.",
+    "image": "img/pat.webp"
+  },
+  {
+    "name": "Panorama do NT",
+    "link": "https://chatgpt.com/g/g-679bc433d7bc819198af048741744105-biblos-nt-panorama",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado nos aspectos panorâmicos e introdutórios do Novo Testamento.",
+    "image": "img/pnt.webp"
+  },
+  {
+    "name": "Paolla A Chef Gourmet Ninja Da Improvisacao",
+    "link": "https://chatgpt.com/g/g-6759ec3441f881919da21fa5fb9c7dc4-paolla-a-chef-gourmet-ninja-da-improvisacao",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Passo 1 Blocos Em Frases",
+    "link": "https://chatgpt.com/g/g-vWi74D9xA-passo-1-blocos-em-frases",
+    "category": "Exegese",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Pastor Henrique Davanso Pechoto",
+    "link": "https://chatgpt.com/g/g-689f83f672a0819190881d41d0426863-pastor-henrique-davanso-pechoto",
+    "category": "Meus",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Pedagogia Baseada em Evidências",
+    "link": "https://chatgpt.com/g/g-68f633a72f288191ae2b71ded75821f1-pedagogia-baseada-em-evidencias",
+    "category": "Mentoria",
+    "description": "Mentor especialista em ciência da aprendizagem aplicada à prática pedagógica para o ensino baseado em evidências. Focado em capacitar educadores a tomarem decisões pedagógicas mais eficazes e informadas, traduzindo a complexa ciência da aprendizagem em estratégias práticas, contextuais e acionáveis.",
+    "image": "img/pedagogia-baseada-eveidencias.png"
+  },
+  {
+    "name": "Phrasing (Fluxograma)",
+    "link": "https://chatgpt.com/g/g-6871a338bd7481919e2117805e9b2bd6-phrasing-fluxograma",
+    "category": "Fluxogramas Textuais (Bíblia)",
+    "description": "Assistente especializado em Phrasing de textos bíblicos como ensinado por Andy Naselli & Bill Mounce. Traduções disponíveis: ARC; ARA; NAA; BKJ; NVI; NVT; NTLH.",
+    "image": "img/phrasing.png"
+  },
+  {
+    "name": "Planejador Academico Pedagogico",
+    "link": "https://chatgpt.com/g/g-673fd25aeb8081918e5076f7c7cc35f1-planejador-academico-pedagogico",
+    "category": "Ferramentas Acadêmicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Planejador Acadêmico-Pedagógico",
+    "link": "https://chatgpt.com/g/g-673fd25aeb8081918e5076f7c7cc35f1-planejador-academico-pedagogico",
+    "category": "Mentoria",
+    "description": "Planeja currículos e planos de aula para cursos baseado em bibliografia fornecida.",
+    "image": "img/planejador-academico-pedagogico.png"
+  },
+  {
+    "name": "Plano De Leitura Perfeito",
+    "link": "https://chatgpt.com/g/g-yh3f91miJ-plano-de-leitura-perfeito",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Plantação/Revitalização de Igrejas",
+    "link": "https://chatgpt.com/g/g-673999a84e588191b2d1351ac0d83768-especialista-em-plantacao-revitalizacao-de-igrejas",
+    "category": "Igreja",
+    "description": "Assistente especializado em revitalização de igrejas.",
+    "image": "img/plantacao-igrejas.webp"
+  },
+  {
+    "name": "Pneumatologia",
+    "link": "https://chatgpt.com/g/g-68673c2980d48191afb3cbf9211273ea-pneumatologia",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Pneumatologia",
+    "link": "https://chatgpt.com/g/g-68673c2980d48191afb3cbf9211273ea-biblos-pneumatologia",
+    "category": "Teologia Sistemática",
+    "description": "Assistente especializado na Doutrina do Espírito Santo.",
+    "image": "img/pneumatologia.jpg"
+  },
+  {
+    "name": "Pomolearn",
+    "link": "https://chatgpt.com/g/g-68e659e900e481918321c88110014092-pomolearn",
+    "category": "Mentoria",
+    "description": "Mentor acadêmico que transforma qualquer tema em planos de microlearning organizados pelo método Pomodoro.",
+    "image": "img/pomolearn.png"
+  },
+  {
+    "name": "Pr Andre Louvor",
+    "link": "https://chatgpt.com/g/g-681ac36b10648191a6fa445c623ddf76-pr-andre-louvor",
+    "category": "Ministério Prático",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Prd Vibe Architect",
+    "link": "https://chatgpt.com/g/g-6821d20348188191a1d859201085e9ce-prd-vibe-architect",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Pregacao Para Jay E Adams",
+    "link": "https://chatgpt.com/g/g-67ae30c3fd3c81919283626c4acbfd10-pregacao-para-jay-e-adams",
+    "category": "Homilética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Pregador De Neurocomunicacao Biblica",
+    "link": "https://chatgpt.com/g/g-68b10362d2b481919435e7921a58437f-pregador-de-neurocomunicacao-biblica",
+    "category": "Homilética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Preparação e Entrega de Sermões",
+    "link": "https://chatgpt.com/g/g-673bcf1147c481919f17a471ab5f44e4-especialista-na-preparacao-e-entrega-de-sermoes",
+    "category": "Sermões",
+    "description": "Assistente especializado em Preparação e Entrega de Sermões.",
+    "image": "img/sermoes.webp"
+  },
+  {
+    "name": "Prof Alex Mentor",
+    "link": "https://chatgpt.com/g/g-67f06d85965c819192acf3af9b345347-prof-alex-mentor",
+    "category": "Ferramentas Pedagógicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor Da Alianca",
+    "link": "https://chatgpt.com/g/g-690c09e6eb308191983a1915da647a30-professor-da-alianca",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor Da Teologia Sistematica",
+    "link": "https://chatgpt.com/g/g-6881825f20ec81918afdf6e7ee4e9681-professor-da-teologia-sistematica",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor De Apologetica Crist",
+    "link": "https://chatgpt.com/g/g-68818f648c588191aae5e58f1ba24e16-professor-de-apologetica-crist",
+    "category": "Apologética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor De Apologetica Crista",
+    "link": "https://chatgpt.com/g/g-68818f648c588191aae5e58f1ba24e16-professor-de-apologetica-crista",
+    "category": "Apologética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor De Filosofia Crista",
+    "link": "https://chatgpt.com/g/g-6827d906f7508191854b12a13d5b9a4f-professor-de-filosofia-crista",
+    "category": "Filosofia",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor De Hebraico",
+    "link": "https://chatgpt.com/g/g-679a606da1ec8191a8ea9930cdd87498-professor-de-hebraico",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor De Ingles",
+    "link": "https://chatgpt.com/g/g-679e5c9127288191817380d6dfdb620e-professor-de-ingles",
+    "category": "Ferramentas Pedagógicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor De Matematica",
+    "link": "https://chatgpt.com/g/g-679cdc09431c81919be3d952eae508d8-professor-de-matematica",
+    "category": "Ferramentas Pedagógicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor De Musica",
+    "link": "https://chatgpt.com/g/g-679c5bf5dfa08191b94189138471d383-professor-de-musica",
+    "category": "Ferramentas Pedagógicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor De Portugues",
+    "link": "https://chatgpt.com/g/g-679bac515a208191ba9286caad76a632-professor-de-portugues",
+    "category": "Ferramentas Pedagógicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor De Pregacao Expositiva",
+    "link": "https://chatgpt.com/g/g-679ae20d38f08191ac585174e0b1d22f-professor-de-pregacao-expositiva",
+    "category": "Homilética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor Do Grego",
+    "link": "https://chatgpt.com/g/g-679a8836d1c48191a6c84f4901f7984c-professor-do-grego",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor Do Obsidian",
+    "link": "https://chatgpt.com/g/g-679ebd8ece908191834677b9ca3f611e-professor-do-obsidian",
+    "category": "Obsidian",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor Sayao",
+    "link": "https://chatgpt.com/g/g-690d366e4ccc8191b3a187bad96bc944-professor-sayao",
+    "category": "Novo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Professor Soren Kierkegaa",
+    "link": "https://chatgpt.com/g/g-689e5d8d6c708191ae34a29ab5ef449e-professor-soren-kierkegaa",
+    "category": "Filosofia",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Profetas Menores (O Livro dos 12)",
+    "link": "https://chatgpt.com/g/g-68a32322fad4819190b228f9ea0ad3e9-biblos-at-profetas-menores",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado nos Livros dos 12 Profetas Menores",
+    "image": "img/profetas-menores.png"
+  },
+  {
+    "name": "Promptographer Editor Pro",
+    "link": "https://chatgpt.com/g/g-68d6af9704488191a8035b0130a7e871-promptographer-pro",
+    "category": "Engenharia de Prompts",
+    "description": "Com base em uma imagem de referência esse assistente ajuda a transformar as ideias dos usuários em prompts magistrais para editar a imagem usando o modelo Nano Banana (Gemini).",
+    "image": "img/promptographer.png"
+  },
+  {
+    "name": "Provérbios",
+    "link": "https://chatgpt.com/g/g-678350bedde08191a07838fef581ce23-biblos-at-proverbios",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no Livro de Provérbios.",
+    "image": "img/proverbios.webp"
+  },
+  {
+    "name": "Publicarte",
+    "link": "https://chatgpt.com/g/g-67ccf6ee56188191a81da8050e4f9c11-publicarte",
+    "category": "Ferramentas gerais",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "R C Sproul",
+    "link": "https://chatgpt.com/g/g-689fcb11c71881918316027be9426dd0-r-c-sproul",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Raio X Scriptures",
+    "link": "https://chatgpt.com/g/g-67b7d76b84dc8191ab9bab30d49b60bf-raio-x-scriptures",
+    "category": "Exegese",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Referencias Biblicas Ia",
+    "link": "https://chatgpt.com/g/g-677ec9260a3881918790f2107eddae13-referencias-biblicas-ia",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Remindo O Tempo",
+    "link": "https://chatgpt.com/g/g-6824a9e5c5008191ab15e9eb1b215a85-remindo-o-tempo",
+    "category": "Espiritualidade Clássica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Resenhista Acadêmico",
+    "link": "https://chatgpt.com/g/g-67e72c111e9081919e56f5d7d1dd487d-biblos-diversos-resenhista-academico",
+    "category": "Resenhas / Resumos",
+    "description": "Assistente especializado em resenhas críticas acadêmicas.",
+    "image": "img/resenhista-academico.png"
+  },
+  {
+    "name": "Resenhista Teológico",
+    "link": "https://chatgpt.com/g/g-67df8d1047188191a06d3b4ff92927f3-biblos-diversos-resenhista-teologico",
+    "category": "Resenhas / Resumos",
+    "description": "Assistente especializado em resenhas críticas de livros teológicos.",
+    "image": "img/resenhista-teologico.png"
+  },
+  {
+    "name": "Resumo Rápido",
+    "link": "https://chatgpt.com/g/g-67df197262d481918ecca0ba7fce0c4f-biblos-diversos-resumo-rapido",
+    "category": "Resenhas / Resumos",
+    "description": "Assistente especializado em resumo de textos.",
+    "image": "img/resumo-rapido.webp"
+  },
+  {
+    "name": "Resumos Abrangentes",
+    "link": "https://chatgpt.com/g/g-67f52653b4ec8191a987111a1cd84125-resumos-abrangentes",
+    "category": "Resenhas / Resumos",
+    "description": "Faz resumos analíticos e completos de textos complexos de qualquer área, em qualquer idioma, e apresenta seu resultado em português.",
+    "image": "img/resumos-abrangentes.png"
+  },
+  {
+    "name": "Rick Warren S Bible Study Method",
+    "link": "https://chatgpt.com/g/g-cJ4IdATdq-rick-warren-s-bible-study-method",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Rick Warren S Bible Study Methods",
+    "link": "https://chatgpt.com/g/g-cJ4IdATdq-rick-warren-s-bible-study-methods",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Romanos",
+    "link": "https://chatgpt.com/g/g-67934248e19c81919266f3bf43484dac-biblos-nt-romanos",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado na Epístola de Paulo aos Romanos.",
+    "image": "img/romanos.webp"
+  },
+  {
+    "name": "Rute & Ester",
+    "link": "https://chatgpt.com/g/g-686c41d932e481919a599c5891adaafd-biblos-at-rute-ester",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado nos livros de Rute & Ester.",
+    "image": "img/rute_ester.png"
+  },
+  {
+    "name": "Salmos",
+    "link": "https://chatgpt.com/g/g-67734e5174c88191926cd97a9579ffad-biblos-at-salmos",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no livro de Salmos.",
+    "image": "img/salmos.webp"
+  },
+  {
+    "name": "Scholarai",
+    "link": "https://chatgpt.com/g/g-67c9ba9d728c8191a994a0ede324463b-scholarai",
+    "category": "Ferramentas Acadêmicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Scriba Do Reino",
+    "link": "https://chatgpt.com/g/g-690d1ae2faf08191b9c80cedf2c4a5ea-scriba-do-reino",
+    "category": "Homilética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Septuaginta (LXX): SESB Edition - Rahlfs",
+    "link": "https://chatgpt.com/g/g-67f9290de6808191a70705e7c77dff13-septuaginta-lxx-sesb-edition-rahlfs",
+    "category": "Bíblias",
+    "description": "Especialista em LXX (Rahlfs-Hanhart SESB, 2006), com foco em texto grego, aparato crítico e obras acadêmicas.",
+    "image": "img/LXX.png"
+  },
+  {
+    "name": "Septuaginta Lxx Sesb Edition Rahlfs",
+    "link": "https://chatgpt.com/g/g-67f9290de6808191a70705e7c77dff13-septuaginta-lxx-sesb-edition-rahlfs",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Símbolos de Fé de Westminster",
+    "link": "https://chatgpt.com/g/g-68026fb7e7e88191acabd87df8bca9fe-simbolos-de-fe-de-westminster",
+    "category": "Confissões de Fé / Catecismos",
+    "description": "Especialista nos Símbolos de Fé de Westminster (História, Teologia, Confissão, Catecismos Maior e Menor).",
+    "image": "img/westminster.png"
+  },
+  {
+    "name": "Sintese Analitica Em Tabela",
+    "link": "https://chatgpt.com/g/g-67f7c79d01648191ad710e13e88513f2-sintese-analitica-em-tabela",
+    "category": "Tabela",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Sistemati",
+    "link": "https://chatgpt.com/g/g-679a2ee3c84c8191ae07205021f9beed-biblos-sistematica-arminiana",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Sistematica Biblica",
+    "link": "https://chatgpt.com/g/g-6753381adaf48191bd3ade2dc84e9dc4-sistematica-biblica",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Sistemati",
+    "link": "https://chatgpt.com/g/g-67990bd46c188191a0f638bbd125653d-biblos-sistematica-intertradicional",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Sistemati",
+    "link": "https://chatgpt.com/g/g-679a502501e881918c1ca56207af1865-biblos-sistematica-luterana",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Sparring Apologético",
+    "link": "https://chatgpt.com/g/g-68814a3c50448191ad71b8c410dd6c11-sparring-apologetico",
+    "category": "Apologética",
+    "description": "Especialista em desafiar líderes cristãos em simulações apologéticas rigorosas com análise de desempenho.",
+    "image": "img/sparring-apologetico.png"
+  },
+  {
+    "name": "Stje Introducao Ao Nt",
+    "link": "https://chatgpt.com/g/g-ZP6ZRlbwA-stje-introducao-ao-nt",
+    "category": "Novo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Stje Pos At",
+    "link": "https://chatgpt.com/g/g-67ddec8dd6e881918ce503f0754cee14-biblos-stje-pos-at",
+    "category": "Antigo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Síntese Analítica em Tabela",
+    "link": "https://chatgpt.com/g/g-67f7c79d01648191ad710e13e88513f2-sintese-analitica-em-tabela",
+    "category": "Resenhas / Resumos",
+    "description": "Cria uma Síntese Analítica em Tabela à partir de um texto qualquer.",
+    "image": "img/sintese-tabela.png"
+  },
+  {
+    "name": "TL;DR Essencial (Obsidian)",
+    "link": "https://chatgpt.com/g/g-68ba43b725a48191ab938c9b6ff7bf30-tl-dr-essencial-obsidian",
+    "category": "Obsidian",
+    "description": "Produz TL;DR (Too Long, Didn't Read) em Markdown fiel e condensado de qualquer conteúdo.",
+    "image": "img/tl-dr.png"
+  },
+  {
+    "name": "Tags Da Biblia",
+    "link": "https://chatgpt.com/g/g-67ab31cbfca48191808f6e983c71ea57-tags-da-biblia",
+    "category": "Ferramentas de Estudo bíblico",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Teobiblioteca",
+    "link": "https://chatgpt.com/g/g-67ccfc7c899c8191a9f1db7e57a80f84-teobiblioteca",
+    "category": "Ferramentas Acadêmicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Teologia Apologetica Tutoria",
+    "link": "https://chatgpt.com/g/g-68e4673640108191b62d96ca0aedfb6a-teologia-apologetica-tutoria",
+    "category": "Apologética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Teologia Biblica",
+    "link": "https://chatgpt.com/g/g-68e507d89a1c819183510817174117b7-teologia-biblica",
+    "category": "Teologia Bíblica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Teologia Bíblica",
+    "link": "https://chatgpt.com/g/g-68a3bf3986748191959a8096a8e38fcd-teologia-biblica",
+    "category": "Teologia Bíblica",
+    "description": "Assistente especializado em Teologia Bíblica com capacidade de análise Tipológica e Intertextual.",
+    "image": "img/teologia-biblica.png"
+  },
+  {
+    "name": "Teologia Biblica E As Narrativas Historicas Do At",
+    "link": "https://chatgpt.com/g/g-QvsaUEJTg-teologia-biblica-e-as-narrativas-historicas-do-at",
+    "category": "Teologia Bíblica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Teologia Bíblica do AT",
+    "link": "https://chatgpt.com/g/g-67968f132fa48191b0d8ea5994462688-biblos-at-teologia-biblica",
+    "category": "Teologia Bíblica",
+    "description": "Assistente especializado em Teologia Bíblica do Antigo Testamento.",
+    "image": "img/tbat.webp"
+  },
+  {
+    "name": "Teologia Bíblica do NT",
+    "link": "https://chatgpt.com/g/g-67924bf39a948191a42199d2812aa70e-biblos-nt-teologia-biblica",
+    "category": "Teologia Bíblica",
+    "description": "Assistente especializado em Teologia Bíblica do Novo Testamento.",
+    "image": "img/tbnt.webp"
+  },
+  {
+    "name": "Teologia De Paulo",
+    "link": "https://chatgpt.com/g/g-6795999f4f4481919a59774cb4f2d2f7-teologia-de-paulo",
+    "category": "Novo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Teologia Sistemática Arminiana-Wesleyana",
+    "link": "https://chatgpt.com/g/g-679a2ee3c84c8191ae07205021f9beed-biblos-sistematica-arminiana-wesleyana",
+    "category": "Teologia Sistemática",
+    "description": "Assistente especializado em Teologia Sistemática Arminiana/Wesleyana.",
+    "image": "img/ts-arminiana-wesleyana.webp"
+  },
+  {
+    "name": "Teologia Sistemática Evangélica Dialogal",
+    "link": "https://chatgpt.com/g/g-68d4046a75c08191981265a4fe2a6ff9-teologia-sistematica-evangelica-dialogal",
+    "category": "Teologia Sistemática",
+    "description": "Especialista em explorar doutrinas através de um diálogo profundo entre diversas obras de referência. Ideal para leigos, estudantes e pastores que buscam pensar teologicamente e aprofundar seu conhecimento.",
+    "image": "img/teologia-sistematica-evangelica.png"
+  },
+  {
+    "name": "Teologia Sistemática Luterana",
+    "link": "https://chatgpt.com/g/g-679a502501e881918c1ca56207af1865-biblos-sistematica-luterana",
+    "category": "Teologia Sistemática",
+    "description": "Assistente especializado em Teologia Sistemática Luterana.",
+    "image": "img/ts-luterana.webp"
+  },
+  {
+    "name": "The Devotional Bible Study Expert",
+    "link": "https://chatgpt.com/g/g-COlYIug4b-the-devotional-bible-study-expert",
+    "category": "Devocional",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "The Encyclopedia of Christianity (5 vols.)",
+    "link": "https://chatgpt.com/g/g-68d5551dc4c081918d05076aafd33a4d-the-encyclopedia-of-christianity-5-vols",
+    "category": "Dicionários / Enciclopédias",
+    "description": "Assistente especializado em fornecer entradas completas e literais da Enciclopédia do Cristianismo (Vols. 1-5).",
+    "image": "img/EC.jpg"
+  },
+  {
+    "name": "The Trinity Expert",
+    "link": "https://chatgpt.com/g/g-9cBFw9Vrh-the-trinity-expert",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tiago",
+    "link": "https://chatgpt.com/g/g-685c1db74250819180b740d0d9702dad-biblos-nt-tiago",
+    "category": "Novo Testamento",
+    "description": "Assistente especializado na Epístola de Tiago.",
+    "image": "img/tiago.png"
+  },
+  {
+    "name": "Timothy Keller",
+    "link": "https://chatgpt.com/g/g-68b3af47f2c881918a948efe1ada596f-timothy-keller",
+    "category": "Apologética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tradutor Internacional",
+    "link": "https://chatgpt.com/g/g-68ae06da820c819186c06a86c4691781-tradutor-internacional",
+    "category": "Diversos",
+    "description": "Traduz textos de qualquer idioma para português brasileiro com precisão e fidelidade.",
+    "image": "img/tradutor-internacional.png"
+  },
+  {
+    "name": "Trechos Em Storytelling",
+    "link": "https://chatgpt.com/g/g-6887dbabcd0081918b904b7b889b9c3a-trechos-em-storytelling",
+    "category": "Homilética",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tudo Converge Para A Palavra",
+    "link": "https://chatgpt.com/g/g-68f3067c5da881919af1d172ad890cf9-tudo-converge-para-a-palavra",
+    "category": "Teologia Bíblica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tudo Para Obsidian",
+    "link": "https://chatgpt.com/g/g-68076fc2032081918fd0dad0c598e4a4-tudo-para-obsidian",
+    "category": "Obsidian",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tutor Biblico Reformad",
+    "link": "https://chatgpt.com/g/g-68e483ef8b3c81918b94a2b7d244c850-tutor-biblico-reformad",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tutor De Grego Classico Reading Greek",
+    "link": "https://chatgpt.com/g/g-68e5ab646cbc81919c75629c343692ae-tutor-de-grego-classico-reading-greek",
+    "category": "Línguas bíblicas",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tutor de Grego Clássico 'Reading Greek'",
+    "link": "https://chatgpt.com/g/g-68e5ab646cbc81919c75629c343692ae-tutor-de-grego-classico-reading-greek",
+    "category": "Grego",
+    "description": "Tutor de Grego Clássico baseado no método 'Reading Greek' da Joint Association Of Classical Teachers' Greek Course",
+    "image": "img/JACT.png"
+  },
+  {
+    "name": "Tutor de Hebraico Bíblico",
+    "link": "https://chatgpt.com/g/g-68f4002c3bc08191b6c06ca7985c1b12-especialista-em-hebraico-biblico",
+    "category": "Hebraico",
+    "description": "Tutor especialista em Hebraico Bíblico que ensina de forma socrática baseado nas principais fontes acadêmicas",
+    "image": "img/hebraico-biblico.png"
+  },
+  {
+    "name": "Tutor De Tipologia Biblica",
+    "link": "https://chatgpt.com/g/g-68e64faa21448191943e9071223b1827-tutor-de-tipologia-biblica",
+    "category": "Teologia Bíblica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tutor Reformado De Bibliologia",
+    "link": "https://chatgpt.com/g/g-68e5b4b7044c8191b4aec227b3d57109-tutor-reformado-de-bibliologia",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tutor Richard A Muller",
+    "link": "https://chatgpt.com/g/g-690140d0515c81918a5bb543c7918825-tutor-richard-a-muller",
+    "category": "Teologia Histórica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tutor Socrático",
+    "link": "https://chatgpt.com/g/g-68c76e2716048191b0fc71ea1898c95e-tutor-socratico",
+    "category": "Mentoria",
+    "description": "Tutor adaptativo que elabora um programa de estudos, ensina com perguntas e verifica o domínio do conteúdo.",
+    "image": "img/tutor-socratico.png"
+  },
+  {
+    "name": "Tutoria Classica",
+    "link": "https://chatgpt.com/g/g-68e471d594808191a9c053727afb995c-tutoria-classica",
+    "category": "Espiritualidade Clássica",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tutoria Contemporanea Reform",
+    "link": "https://chatgpt.com/g/g-68e477189d4481919d9bd60fc6103fcd-tutoria-contemporanea-reform",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tutoria Contemporanea Reformada",
+    "link": "https://chatgpt.com/g/g-68e477189d4481919d9bd60fc6103fcd-tutoria-contemporanea-reformada",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tutoria Missional",
+    "link": "https://chatgpt.com/g/g-68e47c5edde48191a9b19a748def9b46-tutoria-missional",
+    "category": "Eclesiologia",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Tutoria Reformacional",
+    "link": "https://chatgpt.com/g/g-68e489e638848191a34f16d91b7b824f-tutoria-reformacional",
+    "category": "Teologia Sistemática",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Uso Do At No Nt",
+    "link": "https://chatgpt.com/g/g-67d8a14d9348819188c3e447719be5f6-uso-do-at-no-nt",
+    "category": "Exegese",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Verdade Na Pratica",
+    "link": "https://chatgpt.com/g/g-682e4823604881919d84a6e66872edbc-verdade-na-pratica",
+    "category": "Devocional",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "ZEB",
+    "link": "https://chatgpt.com/g/g-6798c30a31d0819182dfbcfab755400b-biblos-dicionarios-zeb",
+    "category": "Dicionários / Enciclopédias",
+    "description": "Assistente especializado na Zondervan Encyclopedia of the Bible.",
+    "image": "img/ZEB.webp"
+  },
+  {
+    "name": "Zacarias At Bibleclass",
+    "link": "https://chatgpt.com/g/g-687fb4516d0c8191a73b181f9cbf51b3-zacarias-at-bibleclass",
+    "category": "Antigo Testamento",
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Êxodo",
+    "link": "https://chatgpt.com/g/g-677d573a1b0c8191bde3a0771f991828-biblos-at-exodo",
+    "category": "Antigo Testamento",
+    "description": "Assistente especializado no livro de Êxodo.",
+    "image": "img/exodo.webp"
+  }
+]
